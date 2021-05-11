@@ -239,11 +239,11 @@ class ReinforcementLearner:
                              * (self.num_steps - 1) + self.memory_action
         self.memory_num_stocks = [0] * (self.num_steps - 1) \
                                  + self.memory_num_stocks
-        if self.value_network is not None:
+        if self.critic is not None:
             self.memory_value = [np.array([np.nan] \
                                           * len(Agent.ACTIONS))] * (self.num_steps - 1) \
                                 + self.memory_value
-        if self.policy_network is not None:
+        if self.actor is not None:
             self.memory_policy = [np.array([np.nan] \
                                            * len(Agent.ACTIONS))] * (self.num_steps - 1) \
                                  + self.memory_policy
@@ -367,10 +367,10 @@ class ReinforcementLearner:
                 self.memory_reward.append(immediate_reward)
                 self.memory_target_action.append(target_action)
                 self.memory_target_policy.append(pred_target_policy)
-                if self.value_network is not None:
+                if self.critic is not None:
                     self.memory_value.append(pred_value)
                     self.memory_value2.append(pred_value2)
-                if self.policy_network is not None:
+                if self.actor is not None:
                     self.memory_policy.append(pred_policy)
                 self.memory_pv.append(self.agent.portfolio_value)
                 self.memory_num_stocks.append(self.agent.num_stocks)
@@ -478,7 +478,6 @@ class TD3(ReinforcementLearner):
         y_target_value = np.zeros((batch_size, self.agent.NUM_ACTIONS))
         y_target_policy = np.full((batch_size, self.agent.NUM_ACTIONS), .5)
         rewards=np.zeros(batch_size)
-        action_batch = np.asarray([data[1] for data in memory])
         value_max_next = 0
         value_max_next2 = 0
         target_max_next = 0
@@ -493,14 +492,14 @@ class TD3(ReinforcementLearner):
               y_policy[i] = policy
               q1_vals = self.critic.target_model1_predict(sample)
               q2_vals = self.critic.target_model2.predict(sample)
-              y_target_value[i] = np.min(np.vstack([q1_vals.transpose(),q2_vals.transpose()]),axis=0)
+              y_target_value[i] = np.min(np.vstack([q1_vals.transpose(), q2_vals.transpose()]), axis=0)
               y_target_policy[i] = target_policy
               rewards[i] = (delayed_reward + reward_next - reward * 2) * 100
               y_target_value[i, target_action] = rewards[i] + discount_factor * target_max_next # q_value
         #     # y_target_policy[i, target_action] = sigmoid(target_value[target_action])
               y_value[i, action] = value_max_next # q_value
               y_value2[i, action] = value_max_next2  # q_value
-              y_policy[i, action] = sigmoid(y_value[action])
+              y_policy[i, action] = sigmoid(value[action])
               target_max_next = y_target_value.max()
               value_max_next = value.max()
               value_max_next2 = value2.max()
