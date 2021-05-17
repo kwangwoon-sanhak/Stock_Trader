@@ -45,15 +45,20 @@ class CriticNetwork:
     def target_predict(self, sample, action):
         """ Predict Q-Values using the target network
         """
-        sample = np.array(sample).reshape(-1,self.env_dim)
-        action = np.array(action).reshape(-1,1)
+
+        sample = np.array(sample).reshape(-1, self.env_dim)
+
+        #print(np.array(sample).reshape(-1,5,self.env_dim).shape)
+        action = np.array(action).reshape(-1, 1)
         return self.target_model.predict([sample, action])
+
     def predict(self, sample, action):
         """ Predict Q-Values using the target network
         """
         sample = np.array(sample).reshape(-1,self.env_dim)
-        action = np.array(action).reshape(-1,1)
+        action = np.array(action).reshape(-1 ,1)
         return self.model.predict([sample, action])
+
     def train_on_batch(self, samples, actions, critic_target):
         """ Train the critic network on batch of sampled experience
         """
@@ -69,9 +74,10 @@ class CriticNetwork:
             target_W[i] = self.tau * W[i] + (1 - self.tau)* target_W[i]
         self.target_model.set_weights(target_W)
 
-    def save(self, path):
-        self.target_model.save_weights(path)
+    def save_model(self, model_path):
+        self.model.save_weights(model_path)
+        #self.target_model.save_weights(path)
 
-    def load_weights(self, path):
-        self.model.load_weights(path)
-        self.target_model.load_weights(path)
+    def load_model(self, model_path):
+        self.model.load_weights(model_path)
+       # self.target_model.load_weights(path)
