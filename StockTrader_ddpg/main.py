@@ -32,7 +32,7 @@ if __name__ == '__main__':
     parser.add_argument('--reuse_models', action='store_true')
     parser.add_argument('--learning', action='store_true')
     parser.add_argument('--start_date', default='20140101')
-    parser.add_argument('--end_date', default='20191230')
+    parser.add_argument('--end_date', default='20181230')
     args = parser.parse_args()
 
     # Keras Backend 설정

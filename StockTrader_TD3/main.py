@@ -11,7 +11,7 @@ import data_manager
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--stock_code', nargs='+')
-    parser.add_argument('--ver', choices=['v1', 'v2','v3'], default='v2')
+    parser.add_argument('--ver', choices=['v1', 'v2','v3'], default='v3')
     parser.add_argument('--rl_method',
         choices=['dqn', 'pg', 'ac', 'a2c', 'a3c', 'ddpg','td3'])
     parser.add_argument('--net',
@@ -31,7 +31,7 @@ if __name__ == '__main__':
     parser.add_argument('--policy_network_name')
     parser.add_argument('--reuse_models', action='store_true')
     parser.add_argument('--learning', action='store_true')
-    parser.add_argument('--start_date', default='20140101')
+    parser.add_argument('--start_date', default='20180101')
     parser.add_argument('--end_date', default='20181230')
     args = parser.parse_args()
 
