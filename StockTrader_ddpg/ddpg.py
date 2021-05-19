@@ -346,9 +346,11 @@ class ReinforcementLearner:
                 sample = self.build_sample()
                 if sample is None:
                     break
-                next_sample = self.build_next_sample()
-                if next_sample is None:
-                    break
+                next_sample = None
+                if learning :
+                    next_sample = self.build_next_sample()
+                    if next_sample is None:
+                        break
 
                 # num_steps만큼 샘플 저장
                 # q_sample.append(sample)
@@ -377,7 +379,7 @@ class ReinforcementLearner:
                 # 결정한 행동을 수행하고 즉시 보상과 지연 보상 획득
                 immediate_reward, delayed_reward = \
                     self.agent.act(action, confidence)
-                if immediate_reward > 0.01 or immediate_reward < -0.01:
+                if learning and immediate_reward > 0.01 or immediate_reward < -0.01:
                     self.replay_memory.add(sample, action, immediate_reward, next_sample)
 
                 # 행동 및 행동에 대한 결과를 기억
