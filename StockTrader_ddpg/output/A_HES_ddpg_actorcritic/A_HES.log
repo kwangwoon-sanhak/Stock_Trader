@@ -1,0 +1,1383 @@
+(private) matplotlib data path: /home/yjs1916211/.local/lib/python3.6/site-packages/matplotlib/mpl-data
+matplotlib data path: /home/yjs1916211/.local/lib/python3.6/site-packages/matplotlib/mpl-data
+CONFIGDIR=/home/yjs1916211/.config/matplotlib
+matplotlib version 3.3.4
+interactive is False
+platform is linux
+loaded modules: ['builtins', 'sys', '_frozen_importlib', '_imp', '_warnings', '_thread', '_weakref', '_frozen_importlib_external', '_io', 'marshal', 'posix', 'zipimport', 'encodings', 'codecs', '_codecs', 'encodings.aliases', 'encodings.utf_8', '_signal', '__main__', 'encodings.latin_1', 'io', 'abc', '_weakrefset', 'site', 'os', 'errno', 'stat', '_stat', 'posixpath', 'genericpath', 'os.path', '_collections_abc', '_sitebuiltins', 'sysconfig', '_sysconfigdata_m_linux_x86_64-linux-gnu', '_bootlocale', '_locale', 'types', 'functools', '_functools', 'collections', 'operator', '_operator', 'keyword', 'heapq', '_heapq', 'itertools', 'reprlib', '_collections', 'weakref', 'collections.abc', 'importlib', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib.util', 'importlib.abc', 'importlib.machinery', 'contextlib', 'mpl_toolkits', 'google', 'zope', 'sitecustomize', 'apport_python_hook', 'logging', 'time', 'traceback', 'linecache', 'tokenize', 're', 'enum', 'sre_compile', '_sre', 'sre_parse', 'sre_constants', 'copyreg', 'token', 'string', '_string', 'threading', 'atexit', 'argparse', 'copy', 'textwrap', 'gettext', 'locale', 'struct', '_struct', 'json', 'json.decoder', 'json.scanner', '_json', 'json.encoder', 'settings', 'platform', 'subprocess', 'signal', '_posixsubprocess', 'select', 'selectors', 'math', 'utils', 'datetime', '_datetime', 'numpy', 'numpy._globals', 'numpy.__config__', 'numpy.version', 'numpy._distributor_init', 'numpy.core', 'numpy.core.multiarray', 'numpy.core.overrides', 'numpy.core._multiarray_umath', 'numpy.compat', 'numpy.compat._inspect', 'numpy.compat.py3k', 'pathlib', 'fnmatch', 'ntpath', 'urllib', 'urllib.parse', 'pickle', '_compat_pickle', '_pickle', 'numpy.core.umath', 'numpy.core.numerictypes', 'numbers', 'numpy.core._string_helpers', 'numpy.core._type_aliases', 'numpy.core._dtype', 'numpy.core.numeric', 'numpy.core.shape_base', 'numpy.core._asarray', 'numpy.core.fromnumeric', 'numpy.core._methods', 'numpy.core._exceptions', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core.machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._add_newdocs', 'numpy.core._multiarray_tests', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'ast', '_ast', 'ctypes', '_ctypes', 'ctypes._endian', 'numpy._pytesttester', 'numpy.lib', 'numpy.lib.mixins', 'numpy.lib.scimath', 'numpy.lib.type_check', 'numpy.lib.ufunclike', 'numpy.lib.index_tricks', 'numpy.matrixlib', 'numpy.matrixlib.defmatrix', 'numpy.linalg', 'numpy.linalg.linalg', 'numpy.lib.twodim_base', 'numpy.linalg.lapack_lite', 'numpy.linalg._umath_linalg', 'numpy.lib.function_base', 'numpy.lib.histograms', 'numpy.lib.stride_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.npyio', 'numpy.lib.format', 'numpy.lib._datasource', 'shutil', 'zlib', 'bz2', '_compression', '_bz2', 'lzma', '_lzma', 'pwd', 'grp', 'numpy.lib._iotools', 'numpy.lib.financial', 'decimal', '_decimal', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.fft', 'numpy.fft._pocketfft', 'numpy.fft._pocketfft_internal', 'numpy.fft.helper', 'numpy.polynomial', 'numpy.polynomial.polynomial', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.random', 'numpy.random._pickle', 'numpy.random.mtrand', 'cython_runtime', 'numpy.random.bit_generator', '_cython_0_29_21', 'numpy.random._common', 'secrets', 'base64', 'binascii', 'hmac', 'hashlib', '_hashlib', '_blake2', '_sha3', 'random', 'bisect', '_bisect', '_random', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.ctypeslib', 'numpy.ma', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.testing', 'unittest', 'unittest.result', 'unittest.util', 'unittest.case', 'difflib', 'pprint', 'unittest.suite', 'unittest.loader', 'unittest.main', 'unittest.runner', 'unittest.signals', 'numpy.testing._private', 'numpy.testing._private.utils', 'gc', 'tempfile', 'numpy.testing._private.decorators', 'numpy.testing._private.nosetester', 'data_manager', 'pandas', 'pytz', 'pytz.exceptions', 'pytz.lazy', 'pytz.tzinfo', 'pytz.tzfile', 'dateutil', 'dateutil._version', 'pandas.compat', 'pandas._typing', 'typing', 'typing.io', 'typing.re', 'pandas.compat.numpy', 'distutils', 'distutils.version', 'pandas._libs', 'pandas._libs.interval', 'pandas._libs.hashtable', 'pandas._libs.missing', 'pandas._libs.tslibs', 'pandas._libs.tslibs.dtypes', 'pandas._libs.tslibs.conversion', 'pandas._libs.tslibs.base', 'pandas._libs.tslibs.nattype', 'pandas._libs.tslibs.np_datetime', 'pandas._libs.tslibs.timezones', 'dateutil.tz', 'dateutil.tz.tz', 'six', '__future__', 'six.moves', 'dateutil.tz._common', 'dateutil.tz._factories', 'pandas._libs.tslibs.tzconversion', 'pandas._libs.tslibs.ccalendar', 'pandas._libs.tslibs.parsing', 'pandas._libs.tslibs.offsets', 'pandas._libs.tslibs.timedeltas', 'pandas._libs.tslibs.timestamps', 'pandas._libs.tslibs.fields', 'pandas._config', 'pandas._config.config', 'pandas._config.dates', 'pandas._config.display', 'pandas._config.localization', 'pandas._libs.tslibs.strptime', 'calendar', 'dateutil.easter', 'dateutil.relativedelta', 'dateutil._common', 'pandas._libs.properties', 'dateutil.parser', 'dateutil.parser._parser', 'dateutil.parser.isoparser', 'pandas._libs.tslibs.period', 'pandas._libs.tslibs.vectorized', 'pandas._libs.ops_dispatch', 'pandas._libs.algos', 'pandas._libs.lib', 'pandas._libs.tslib', 'pandas.core', 'pandas.core.config_init', 'pandas.core.api', 'pandas.core.dtypes', 'pandas.core.dtypes.dtypes', 'pandas.core.dtypes.base', 'pandas.errors', 'pandas.core.dtypes.generic', 'pandas.core.dtypes.inference', 'pandas.core.dtypes.missing', 'pandas.core.dtypes.common', 'pandas.core.algorithms', 'pandas.util', 'pandas.util._decorators', 'inspect', 'dis', 'opcode', '_opcode', 'pandas.core.util', 'pandas.core.util.hashing', 'pandas._libs.hashing', 'pandas.core.dtypes.cast', 'pandas.util._validators', 'pandas.core.construction', 'pandas.core.common', 'pandas.core.indexers', 'pandas.core.arrays', 'pandas.core.arrays.base', 'pandas.compat.numpy.function', 'pandas.core.ops', 'pandas.core.ops.array_ops', 'pandas._libs.ops', 'pandas.core.ops.missing', 'pandas.core.ops.roperator', 'pandas.core.ops.dispatch', 'pandas.core.ops.invalid', 'pandas.core.ops.common', 'pandas.core.ops.docstrings', 'pandas.core.ops.mask_ops', 'pandas.core.ops.methods', 'pandas.core.missing', 'pandas.compat._optional', 'pandas.core.sorting', 'pandas.core.arrays.boolean', 'pandas.core.arrays.masked', 'pandas.core.nanops', 'pandas.core.array_algos', 'pandas.core.array_algos.masked_reductions', 'pandas.core.arrays.categorical', 'csv', '_csv', 'pandas.core.accessor', 'pandas.core.array_algos.transforms', 'pandas.core.arrays._mixins', 'pandas.core.base', 'pandas.io', 'pandas.io.formats', 'pandas.io.formats.console', 'pandas.core.arrays.datetimes', 'pandas.core.arrays.datetimelike', 'pandas.tseries', 'pandas.tseries.frequencies', 'pandas.core.arrays._ranges', 'pandas.tseries.offsets', 'pandas.core.arrays.integer', 'pandas.core.tools', 'pandas.core.tools.numeric', 'pandas.core.arrays.interval', 'pandas.core.indexes', 'pandas.core.indexes.base', 'pandas._libs.index', 'pandas._libs.join', 'pandas.core.dtypes.concat', 'pandas.core.arrays.sparse', 'pandas.core.arrays.sparse.accessor', 'pandas.core.arrays.sparse.array', 'pandas._libs.sparse', 'pandas.core.arrays.sparse.dtype', 'pandas.io.formats.printing', 'pandas.core.indexes.frozen', 'pandas.core.strings', 'pandas.core.arrays.numpy_', 'pandas.core.arrays.period', 'pandas.core.arrays.string_', 'pandas.core.arrays.timedeltas', 'pandas.core.groupby', 'pandas.core.groupby.generic', 'pandas.core.aggregation', 'pandas.core.indexes.api', 'pandas.core.indexes.category', 'pandas.core.indexes.extension', 'pandas.core.indexes.datetimes', 'pandas.core.indexes.datetimelike', 'pandas.core.indexes.numeric', 'pandas.core.tools.timedeltas', 'pandas.core.tools.times', 'pandas.core.indexes.interval', 'pandas.util._exceptions', 'pandas.core.indexes.multi', 'pandas.core.indexes.timedeltas', 'pandas.core.indexes.period', 'pandas.core.indexes.range', 'pandas.core.series', 'pandas._libs.reshape', 'pandas.core.generic', 'pandas.core.indexing', 'pandas._libs.indexing', 'pandas.core.internals', 'pandas.core.internals.blocks', 'pandas._libs.writers', 'pandas._libs.internals', 'pandas.core.internals.concat', 'pandas.core.internals.managers', 'pandas.core.internals.ops', 'pandas.core.shared_docs', 'pandas.io.formats.format', 'unicodedata', 'pandas.io.common', 'gzip', 'mmap', 'zipfile', 'pandas.core.indexes.accessors', 'pandas.core.tools.datetimes', 'pandas.arrays', 'pandas.plotting', 'pandas.plotting._core', 'pandas.plotting._misc', 'pandas.core.window', 'pandas.core.window.ewm', 'pandas._libs.window', 'pandas._libs.window.aggregations', 'pandas.core.window.common', 'pandas.core.groupby.base', 'pandas.core.window.rolling', 'pandas.core.util.numba_', 'pandas.core.window.indexers', 'pandas._libs.window.indexers', 'pandas.core.window.numba_', 'pandas.core.window.expanding', 'pandas.core.frame', 'pandas.core.internals.construction', 'pandas.core.reshape', 'pandas.core.reshape.melt', 'pandas.core.reshape.concat', 'pandas.core.reshape.util', 'pandas.io.formats.info', 'pandas.core.groupby.groupby', 'pandas._libs.groupby', 'pandas.core.groupby.ops', 'pandas._libs.reduction', 'pandas.core.groupby.grouper', 'pandas.core.groupby.categorical', 'pandas.tseries.api', 'pandas.core.computation', 'pandas.core.computation.api', 'pandas.core.computation.eval', 'pandas.core.computation.engines', 'pandas.core.computation.align', 'pandas.core.computation.common', 'pandas.core.computation.ops', 'pandas.core.computation.scope', 'pandas.compat.chainmap', 'pandas.core.computation.expr', 'pandas.core.computation.parsing', 'pandas.core.reshape.api', 'pandas.core.reshape.merge', 'pandas.core.reshape.pivot', 'pandas.core.reshape.reshape', 'pandas.core.reshape.tile', 'pandas.api', 'pandas.api.extensions', 'pandas.api.indexers', 'pandas.api.types', 'pandas.core.dtypes.api', 'pandas.util._print_versions', 'pandas.io.api', 'pandas.io.clipboards', 'pandas.io.excel', 'pandas.io.excel._base', 'pandas._libs.parsers', 'pandas.io.excel._util', 'pandas.io.parsers', 'pandas.io.date_converters', 'pandas.io.excel._odfreader', 'pandas.io.excel._openpyxl', 'pandas.io.excel._pyxlsb', 'pandas.io.excel._xlrd', 'pandas.io.excel._odswriter', 'pandas._libs.json', 'pandas.io.formats.excel', 'pandas.io.formats.css', 'pandas.io.excel._xlsxwriter', 'pandas.io.excel._xlwt', 'pandas.io.feather_format', 'pandas.io.gbq', 'pandas.io.html', 'pandas.io.json', 'pandas.io.json._json', 'pandas.io.json._normalize', 'pandas.io.json._table_schema', 'pandas.io.orc', 'pandas.io.parquet', 'pandas.io.pickle', 'pandas.compat.pickle_compat', 'pandas.io.pytables', 'pandas.core.computation.pytables', 'pandas.io.sas', 'pandas.io.sas.sasreader', 'pandas.io.spss', 'pandas.io.sql', 'pandas.io.stata', 'pandas.util._tester', 'pandas.testing', 'pandas._testing', 'pandas._libs.testing', 'pandas._version', 'agent', 'learners', 'environment', 'visualizer', 'matplotlib', 'matplotlib.cbook', 'shlex', 'matplotlib.cbook.deprecation', 'matplotlib.rcsetup', 'matplotlib.animation', 'uuid', 'ctypes.util', 'matplotlib._animation_data', 'matplotlib.fontconfig_pattern', 'pyparsing', 'matplotlib.colors', 'matplotlib.docstring', 'matplotlib._color_data', 'cycler', 'matplotlib._version', 'matplotlib.ft2font', 'kiwisolver']
+CACHEDIR=/home/yjs1916211/.cache/matplotlib
+Using fontManager instance from /home/yjs1916211/.cache/matplotlib/fontlist-v330.json
+Loaded backend agg version unknown.
+Loaded backend agg version unknown.
+Loaded backend agg version unknown.
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4115: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From /home/yjs1916211/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/yjs1916211/Stock_Trader/StockTrader_ddpg/actor.py:183: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+[HES] RL:ddpg Net:actorcritic LR:0.0001 DF:0.9 TU:[1,10] DRT:0.05
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:2741: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:181: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:190: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:199: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:206: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+[HES][Epoch 001/500] Epsilon:1.0000 #Expl.:1253/1253 #Buy:575 #Sell:553 #Hold:125 #Stocks:73 PV:7,484 LC:1143 Loss:5.669365 ET:22.1636
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/yjs1916211/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+top of axes not in the figure, so title not moved
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/yjs1916211/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+top of axes not in the figure, so title not moved
+[HES][Epoch 002/500] Epsilon:0.9980 #Expl.:1251/1253 #Buy:64 #Sell:37 #Hold:1152 #Stocks:127 PV:5,296 LC:1233 Loss:18.399161 ET:18.0884
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 003/500] Epsilon:0.9960 #Expl.:1249/1253 #Buy:425 #Sell:385 #Hold:443 #Stocks:111 PV:4,911 LC:1207 Loss:20.265048 ET:17.5022
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 004/500] Epsilon:0.9940 #Expl.:1245/1253 #Buy:574 #Sell:546 #Hold:133 #Stocks:68 PV:5,615 LC:1176 Loss:16.974655 ET:17.4776
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 005/500] Epsilon:0.9920 #Expl.:1240/1253 #Buy:241 #Sell:205 #Hold:807 #Stocks:125 PV:5,223 LC:1233 Loss:17.637510 ET:18.0650
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 006/500] Epsilon:0.9900 #Expl.:1243/1253 #Buy:131 #Sell:101 #Hold:1021 #Stocks:129 PV:5,365 LC:1232 Loss:14.808944 ET:18.1519
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 007/500] Epsilon:0.9880 #Expl.:1240/1253 #Buy:288 #Sell:253 #Hold:712 #Stocks:118 PV:5,095 LC:1217 Loss:16.951625 ET:18.3069
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 008/500] Epsilon:0.9860 #Expl.:1239/1253 #Buy:309 #Sell:266 #Hold:678 #Stocks:124 PV:5,189 LC:1234 Loss:15.423317 ET:18.0473
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 009/500] Epsilon:0.9840 #Expl.:1232/1253 #Buy:501 #Sell:460 #Hold:292 #Stocks:125 PV:5,226 LC:1208 Loss:14.102211 ET:17.8702
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 010/500] Epsilon:0.9820 #Expl.:1218/1253 #Buy:557 #Sell:512 #Hold:184 #Stocks:128 PV:5,324 LC:1210 Loss:12.573260 ET:17.7580
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 011/500] Epsilon:0.9800 #Expl.:1230/1253 #Buy:370 #Sell:332 #Hold:551 #Stocks:128 PV:5,322 LC:1219 Loss:14.303896 ET:18.1093
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 012/500] Epsilon:0.9780 #Expl.:1225/1253 #Buy:294 #Sell:256 #Hold:703 #Stocks:123 PV:5,392 LC:1232 Loss:16.789742 ET:17.9043
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 013/500] Epsilon:0.9760 #Expl.:1219/1253 #Buy:56 #Sell:27 #Hold:1170 #Stocks:129 PV:5,361 LC:1232 Loss:14.931221 ET:18.2144
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 014/500] Epsilon:0.9739 #Expl.:1218/1253 #Buy:506 #Sell:462 #Hold:285 #Stocks:120 PV:5,194 LC:1209 Loss:12.973121 ET:17.7138
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 015/500] Epsilon:0.9719 #Expl.:1214/1253 #Buy:601 #Sell:571 #Hold:81 #Stocks:114 PV:6,961 LC:1178 Loss:5.819307 ET:17.5304
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 016/500] Epsilon:0.9699 #Expl.:1210/1253 #Buy:591 #Sell:549 #Hold:113 #Stocks:115 PV:5,452 LC:1211 Loss:13.766010 ET:17.7368
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 017/500] Epsilon:0.9679 #Expl.:1203/1253 #Buy:491 #Sell:453 #Hold:309 #Stocks:111 PV:4,635 LC:1217 Loss:17.589469 ET:18.0829
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 018/500] Epsilon:0.9659 #Expl.:1192/1253 #Buy:531 #Sell:493 #Hold:229 #Stocks:104 PV:4,811 LC:1212 Loss:17.808362 ET:18.0661
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 019/500] Epsilon:0.9639 #Expl.:1212/1253 #Buy:543 #Sell:505 #Hold:205 #Stocks:104 PV:4,808 LC:1175 Loss:19.534674 ET:17.5207
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 020/500] Epsilon:0.9619 #Expl.:1205/1253 #Buy:510 #Sell:462 #Hold:281 #Stocks:124 PV:5,158 LC:1217 Loss:14.869413 ET:18.2792
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 021/500] Epsilon:0.9599 #Expl.:1210/1253 #Buy:516 #Sell:476 #Hold:261 #Stocks:110 PV:4,602 LC:1220 Loss:18.649608 ET:17.8645
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 022/500] Epsilon:0.9579 #Expl.:1204/1253 #Buy:410 #Sell:364 #Hold:479 #Stocks:123 PV:5,141 LC:1209 Loss:15.264361 ET:18.1229
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 023/500] Epsilon:0.9559 #Expl.:1204/1253 #Buy:371 #Sell:328 #Hold:554 #Stocks:122 PV:5,296 LC:1229 Loss:13.979233 ET:17.9641
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 024/500] Epsilon:0.9539 #Expl.:1201/1253 #Buy:120 #Sell:89 #Hold:1044 #Stocks:127 PV:5,288 LC:1221 Loss:15.458954 ET:18.0693
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 025/500] Epsilon:0.9519 #Expl.:1185/1253 #Buy:432 #Sell:391 #Hold:430 #Stocks:113 PV:5,113 LC:1220 Loss:14.167624 ET:17.8276
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 026/500] Epsilon:0.9499 #Expl.:1185/1253 #Buy:625 #Sell:598 #Hold:30 #Stocks:118 PV:8,042 LC:1151 Loss:3.685314 ET:17.3307
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 027/500] Epsilon:0.9479 #Expl.:1197/1253 #Buy:632 #Sell:595 #Hold:26 #Stocks:161 PV:7,190 LC:1228 Loss:2.876439 ET:17.9693
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 028/500] Epsilon:0.9459 #Expl.:1176/1253 #Buy:231 #Sell:196 #Hold:826 #Stocks:125 PV:5,208 LC:1230 Loss:15.871057 ET:18.1563
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 029/500] Epsilon:0.9439 #Expl.:1165/1253 #Buy:559 #Sell:535 #Hold:159 #Stocks:52 PV:7,822 LC:1191 Loss:9.771168 ET:17.5548
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 030/500] Epsilon:0.9419 #Expl.:1174/1253 #Buy:590 #Sell:555 #Hold:108 #Stocks:132 PV:6,457 LC:1228 Loss:4.517297 ET:18.1921
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 031/500] Epsilon:0.9399 #Expl.:1186/1253 #Buy:496 #Sell:453 #Hold:304 #Stocks:128 PV:5,970 LC:1211 Loss:9.967397 ET:17.9340
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 032/500] Epsilon:0.9379 #Expl.:1177/1253 #Buy:526 #Sell:484 #Hold:243 #Stocks:101 PV:5,156 LC:1218 Loss:15.840589 ET:17.7654
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 033/500] Epsilon:0.9359 #Expl.:1178/1253 #Buy:584 #Sell:551 #Hold:118 #Stocks:87 PV:4,058 LC:1173 Loss:18.241776 ET:17.4731
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 034/500] Epsilon:0.9339 #Expl.:1167/1253 #Buy:594 #Sell:548 #Hold:111 #Stocks:178 PV:7,855 LC:1175 Loss:6.090994 ET:17.2664
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 035/500] Epsilon:0.9319 #Expl.:1178/1253 #Buy:215 #Sell:182 #Hold:856 #Stocks:127 PV:5,290 LC:1230 Loss:14.329590 ET:18.1909
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 036/500] Epsilon:0.9299 #Expl.:1171/1253 #Buy:73 #Sell:46 #Hold:1134 #Stocks:128 PV:5,338 LC:1230 Loss:14.388415 ET:17.9243
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 037/500] Epsilon:0.9279 #Expl.:1151/1253 #Buy:518 #Sell:482 #Hold:253 #Stocks:105 PV:4,382 LC:1177 Loss:23.898640 ET:17.4985
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 038/500] Epsilon:0.9259 #Expl.:1167/1253 #Buy:562 #Sell:523 #Hold:168 #Stocks:118 PV:5,495 LC:1157 Loss:13.850080 ET:17.0162
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 039/500] Epsilon:0.9238 #Expl.:1146/1253 #Buy:74 #Sell:43 #Hold:1136 #Stocks:129 PV:5,361 LC:1232 Loss:14.544810 ET:18.1892
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 040/500] Epsilon:0.9218 #Expl.:1161/1253 #Buy:206 #Sell:173 #Hold:874 #Stocks:130 PV:5,401 LC:1232 Loss:14.222389 ET:18.0373
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 041/500] Epsilon:0.9198 #Expl.:1156/1253 #Buy:493 #Sell:448 #Hold:312 #Stocks:127 PV:5,304 LC:1178 Loss:13.536815 ET:17.6123
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 042/500] Epsilon:0.9178 #Expl.:1158/1253 #Buy:457 #Sell:412 #Hold:384 #Stocks:117 PV:4,874 LC:1170 Loss:16.769757 ET:17.4593
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 043/500] Epsilon:0.9158 #Expl.:1139/1253 #Buy:411 #Sell:366 #Hold:476 #Stocks:125 PV:5,244 LC:1217 Loss:14.186318 ET:17.7951
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 044/500] Epsilon:0.9138 #Expl.:1148/1253 #Buy:259 #Sell:214 #Hold:780 #Stocks:130 PV:5,401 LC:1217 Loss:13.208923 ET:18.0658
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 045/500] Epsilon:0.9118 #Expl.:1132/1253 #Buy:550 #Sell:514 #Hold:189 #Stocks:109 PV:4,820 LC:1171 Loss:23.390825 ET:17.1543
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 046/500] Epsilon:0.9098 #Expl.:1146/1253 #Buy:568 #Sell:520 #Hold:165 #Stocks:194 PV:8,095 LC:1206 Loss:9.105497 ET:17.9188
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 047/500] Epsilon:0.9078 #Expl.:1146/1253 #Buy:103 #Sell:71 #Hold:1079 #Stocks:129 PV:5,371 LC:1233 Loss:13.491694 ET:17.9834
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 048/500] Epsilon:0.9058 #Expl.:1133/1253 #Buy:228 #Sell:185 #Hold:840 #Stocks:132 PV:5,484 LC:1217 Loss:13.733827 ET:18.0326
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 049/500] Epsilon:0.9038 #Expl.:1135/1253 #Buy:576 #Sell:536 #Hold:141 #Stocks:148 PV:6,438 LC:1170 Loss:6.635766 ET:17.2564
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 050/500] Epsilon:0.9018 #Expl.:1137/1253 #Buy:235 #Sell:202 #Hold:816 #Stocks:124 PV:5,160 LC:1232 Loss:16.302901 ET:18.2926
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 051/500] Epsilon:0.8998 #Expl.:1129/1253 #Buy:605 #Sell:562 #Hold:86 #Stocks:197 PV:8,220 LC:1188 Loss:4.325213 ET:17.3898
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 052/500] Epsilon:0.8978 #Expl.:1121/1253 #Buy:248 #Sell:209 #Hold:796 #Stocks:124 PV:5,176 LC:1230 Loss:15.034064 ET:18.2392
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 053/500] Epsilon:0.8958 #Expl.:1128/1253 #Buy:527 #Sell:489 #Hold:237 #Stocks:107 PV:5,375 LC:1230 Loss:13.027206 ET:18.1961
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 054/500] Epsilon:0.8938 #Expl.:1142/1253 #Buy:566 #Sell:538 #Hold:149 #Stocks:79 PV:5,902 LC:1067 Loss:11.710677 ET:16.0787
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 055/500] Epsilon:0.8918 #Expl.:1115/1253 #Buy:225 #Sell:189 #Hold:839 #Stocks:126 PV:5,237 LC:1232 Loss:14.392628 ET:18.3025
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 056/500] Epsilon:0.8898 #Expl.:1137/1253 #Buy:400 #Sell:353 #Hold:500 #Stocks:124 PV:5,373 LC:1193 Loss:14.828487 ET:17.4544
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 057/500] Epsilon:0.8878 #Expl.:1122/1253 #Buy:382 #Sell:340 #Hold:531 #Stocks:129 PV:5,364 LC:1232 Loss:14.422922 ET:18.2347
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 058/500] Epsilon:0.8858 #Expl.:1099/1253 #Buy:193 #Sell:156 #Hold:904 #Stocks:124 PV:5,395 LC:1219 Loss:13.728384 ET:17.8644
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 059/500] Epsilon:0.8838 #Expl.:1105/1253 #Buy:174 #Sell:144 #Hold:935 #Stocks:125 PV:5,218 LC:1232 Loss:14.652511 ET:18.1846
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 060/500] Epsilon:0.8818 #Expl.:1116/1253 #Buy:89 #Sell:59 #Hold:1105 #Stocks:127 PV:5,302 LC:1223 Loss:14.608705 ET:17.8509
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 061/500] Epsilon:0.8798 #Expl.:1098/1253 #Buy:431 #Sell:390 #Hold:432 #Stocks:122 PV:5,318 LC:1232 Loss:15.435365 ET:18.3148
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 062/500] Epsilon:0.8778 #Expl.:1078/1253 #Buy:579 #Sell:542 #Hold:132 #Stocks:158 PV:8,378 LC:1224 Loss:5.203831 ET:17.8319
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 063/500] Epsilon:0.8758 #Expl.:1088/1253 #Buy:567 #Sell:536 #Hold:150 #Stocks:115 PV:7,647 LC:1183 Loss:4.208582 ET:17.5725
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 064/500] Epsilon:0.8737 #Expl.:1097/1253 #Buy:91 #Sell:60 #Hold:1102 #Stocks:128 PV:5,320 LC:1223 Loss:14.757563 ET:18.1655
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 065/500] Epsilon:0.8717 #Expl.:1097/1253 #Buy:282 #Sell:245 #Hold:726 #Stocks:124 PV:5,174 LC:1221 Loss:16.143475 ET:18.0461
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 066/500] Epsilon:0.8697 #Expl.:1090/1253 #Buy:120 #Sell:90 #Hold:1043 #Stocks:127 PV:5,305 LC:1230 Loss:13.831844 ET:18.1767
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 067/500] Epsilon:0.8677 #Expl.:1079/1253 #Buy:414 #Sell:374 #Hold:465 #Stocks:120 PV:5,015 LC:1184 Loss:16.594599 ET:17.4116
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 068/500] Epsilon:0.8657 #Expl.:1100/1253 #Buy:225 #Sell:185 #Hold:843 #Stocks:127 PV:5,312 LC:1232 Loss:14.166764 ET:18.2032
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 069/500] Epsilon:0.8637 #Expl.:1083/1253 #Buy:415 #Sell:368 #Hold:470 #Stocks:129 PV:5,363 LC:1220 Loss:14.587135 ET:17.7737
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 070/500] Epsilon:0.8617 #Expl.:1062/1253 #Buy:192 #Sell:160 #Hold:901 #Stocks:123 PV:5,111 LC:1212 Loss:15.161629 ET:18.0436
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 071/500] Epsilon:0.8597 #Expl.:1081/1253 #Buy:573 #Sell:532 #Hold:148 #Stocks:153 PV:6,383 LC:1202 Loss:6.604379 ET:17.5370
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 072/500] Epsilon:0.8577 #Expl.:1078/1253 #Buy:396 #Sell:355 #Hold:502 #Stocks:130 PV:5,422 LC:1219 Loss:12.955927 ET:17.9743
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 073/500] Epsilon:0.8557 #Expl.:1069/1253 #Buy:120 #Sell:89 #Hold:1044 #Stocks:126 PV:5,236 LC:1222 Loss:14.910245 ET:17.7444
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 074/500] Epsilon:0.8537 #Expl.:1050/1253 #Buy:402 #Sell:359 #Hold:492 #Stocks:111 PV:4,614 LC:1199 Loss:23.148582 ET:17.8538
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 075/500] Epsilon:0.8517 #Expl.:1056/1253 #Buy:185 #Sell:153 #Hold:915 #Stocks:126 PV:5,242 LC:1232 Loss:15.525992 ET:18.0598
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 076/500] Epsilon:0.8497 #Expl.:1047/1253 #Buy:507 #Sell:463 #Hold:283 #Stocks:138 PV:5,754 LC:1185 Loss:9.904081 ET:17.7336
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 077/500] Epsilon:0.8477 #Expl.:1052/1253 #Buy:266 #Sell:226 #Hold:761 #Stocks:125 PV:5,195 LC:1222 Loss:14.619272 ET:18.1391
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 078/500] Epsilon:0.8457 #Expl.:1051/1253 #Buy:327 #Sell:283 #Hold:643 #Stocks:130 PV:5,414 LC:1218 Loss:14.154909 ET:17.8237
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 079/500] Epsilon:0.8437 #Expl.:1055/1253 #Buy:282 #Sell:245 #Hold:726 #Stocks:122 PV:5,303 LC:1218 Loss:15.656680 ET:18.0962
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 080/500] Epsilon:0.8417 #Expl.:1056/1253 #Buy:555 #Sell:521 #Hold:177 #Stocks:127 PV:6,042 LC:1113 Loss:7.965310 ET:16.5436
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 081/500] Epsilon:0.8397 #Expl.:1068/1253 #Buy:111 #Sell:80 #Hold:1062 #Stocks:127 PV:5,292 LC:1232 Loss:14.409119 ET:18.2049
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 082/500] Epsilon:0.8377 #Expl.:1067/1253 #Buy:442 #Sell:409 #Hold:402 #Stocks:107 PV:4,461 LC:1156 Loss:22.643194 ET:17.0153
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 083/500] Epsilon:0.8357 #Expl.:1058/1253 #Buy:173 #Sell:142 #Hold:938 #Stocks:123 PV:5,131 LC:1220 Loss:16.073738 ET:18.0830
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 084/500] Epsilon:0.8337 #Expl.:1034/1253 #Buy:395 #Sell:354 #Hold:504 #Stocks:123 PV:5,115 LC:1213 Loss:14.794740 ET:17.6646
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 085/500] Epsilon:0.8317 #Expl.:1059/1253 #Buy:483 #Sell:442 #Hold:328 #Stocks:117 PV:4,880 LC:1178 Loss:16.612808 ET:17.5721
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 086/500] Epsilon:0.8297 #Expl.:1059/1253 #Buy:301 #Sell:264 #Hold:688 #Stocks:124 PV:5,190 LC:1191 Loss:15.373649 ET:17.5087
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 087/500] Epsilon:0.8277 #Expl.:1039/1253 #Buy:533 #Sell:491 #Hold:229 #Stocks:153 PV:6,366 LC:1174 Loss:7.415745 ET:17.5349
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 088/500] Epsilon:0.8257 #Expl.:1032/1253 #Buy:550 #Sell:528 #Hold:175 #Stocks:73 PV:8,591 LC:1138 Loss:7.268593 ET:17.2860
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 089/500] Epsilon:0.8236 #Expl.:1053/1253 #Buy:495 #Sell:458 #Hold:300 #Stocks:123 PV:5,705 LC:1144 Loss:12.744347 ET:16.9510
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 090/500] Epsilon:0.8216 #Expl.:1021/1253 #Buy:255 #Sell:221 #Hold:777 #Stocks:123 PV:5,144 LC:1222 Loss:15.278832 ET:18.2263
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 091/500] Epsilon:0.8196 #Expl.:1033/1253 #Buy:313 #Sell:279 #Hold:661 #Stocks:120 PV:4,987 LC:1190 Loss:16.927250 ET:17.4728
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 092/500] Epsilon:0.8176 #Expl.:1038/1253 #Buy:452 #Sell:408 #Hold:393 #Stocks:130 PV:5,609 LC:1176 Loss:13.357067 ET:17.4738
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 093/500] Epsilon:0.8156 #Expl.:993/1253 #Buy:362 #Sell:329 #Hold:562 #Stocks:106 PV:4,623 LC:1140 Loss:21.167307 ET:16.8773
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 094/500] Epsilon:0.8136 #Expl.:1040/1253 #Buy:240 #Sell:207 #Hold:806 #Stocks:125 PV:5,208 LC:1219 Loss:14.077321 ET:18.0830
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 095/500] Epsilon:0.8116 #Expl.:1035/1253 #Buy:553 #Sell:507 #Hold:193 #Stocks:159 PV:7,021 LC:1135 Loss:5.579336 ET:16.7479
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 096/500] Epsilon:0.8096 #Expl.:1004/1253 #Buy:232 #Sell:192 #Hold:829 #Stocks:125 PV:5,198 LC:1218 Loss:15.334136 ET:18.0155
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 097/500] Epsilon:0.8076 #Expl.:1017/1253 #Buy:560 #Sell:510 #Hold:183 #Stocks:171 PV:7,120 LC:1170 Loss:5.564075 ET:17.3658
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 098/500] Epsilon:0.8056 #Expl.:1026/1253 #Buy:496 #Sell:456 #Hold:301 #Stocks:148 PV:6,414 LC:1184 Loss:5.959968 ET:17.4808
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 099/500] Epsilon:0.8036 #Expl.:1013/1253 #Buy:166 #Sell:133 #Hold:954 #Stocks:127 PV:5,277 LC:1219 Loss:15.091505 ET:18.0803
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 100/500] Epsilon:0.8016 #Expl.:1013/1253 #Buy:572 #Sell:524 #Hold:157 #Stocks:182 PV:7,744 LC:1040 Loss:4.202880 ET:15.6608
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 101/500] Epsilon:0.7996 #Expl.:1012/1253 #Buy:364 #Sell:320 #Hold:569 #Stocks:122 PV:5,281 LC:1220 Loss:14.628910 ET:17.9997
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 102/500] Epsilon:0.7976 #Expl.:1010/1253 #Buy:203 #Sell:167 #Hold:883 #Stocks:129 PV:5,373 LC:1221 Loss:13.694211 ET:17.9110
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 103/500] Epsilon:0.7956 #Expl.:1000/1253 #Buy:515 #Sell:470 #Hold:268 #Stocks:159 PV:7,620 LC:1182 Loss:4.722792 ET:17.6777
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 104/500] Epsilon:0.7936 #Expl.:996/1253 #Buy:264 #Sell:231 #Hold:758 #Stocks:123 PV:5,115 LC:1214 Loss:15.973218 ET:17.6962
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 105/500] Epsilon:0.7916 #Expl.:1012/1253 #Buy:413 #Sell:380 #Hold:460 #Stocks:102 PV:4,650 LC:1177 Loss:21.074871 ET:17.5171
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 106/500] Epsilon:0.7896 #Expl.:1007/1253 #Buy:335 #Sell:299 #Hold:619 #Stocks:115 PV:5,000 LC:1216 Loss:16.585731 ET:17.8149
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 107/500] Epsilon:0.7876 #Expl.:978/1253 #Buy:147 #Sell:115 #Hold:991 #Stocks:124 PV:5,154 LC:1220 Loss:15.644606 ET:18.0973
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 108/500] Epsilon:0.7856 #Expl.:953/1253 #Buy:457 #Sell:414 #Hold:382 #Stocks:144 PV:6,005 LC:1190 Loss:8.104744 ET:17.7286
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 109/500] Epsilon:0.7836 #Expl.:957/1253 #Buy:398 #Sell:354 #Hold:501 #Stocks:104 PV:4,357 LC:1170 Loss:24.746389 ET:17.2141
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 110/500] Epsilon:0.7816 #Expl.:977/1253 #Buy:175 #Sell:141 #Hold:937 #Stocks:126 PV:5,235 LC:1198 Loss:15.572959 ET:17.7155
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 111/500] Epsilon:0.7796 #Expl.:975/1253 #Buy:550 #Sell:505 #Hold:198 #Stocks:175 PV:7,280 LC:1067 Loss:6.156141 ET:15.9249
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 112/500] Epsilon:0.7776 #Expl.:997/1253 #Buy:502 #Sell:456 #Hold:295 #Stocks:137 PV:6,022 LC:1050 Loss:9.198216 ET:15.8899
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 113/500] Epsilon:0.7756 #Expl.:984/1253 #Buy:314 #Sell:278 #Hold:661 #Stocks:126 PV:5,243 LC:1218 Loss:14.922059 ET:17.6733
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 114/500] Epsilon:0.7735 #Expl.:951/1253 #Buy:252 #Sell:216 #Hold:785 #Stocks:127 PV:5,277 LC:1214 Loss:14.250420 ET:17.9469
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 115/500] Epsilon:0.7715 #Expl.:970/1253 #Buy:153 #Sell:123 #Hold:977 #Stocks:126 PV:5,252 LC:1218 Loss:15.121735 ET:17.7149
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 116/500] Epsilon:0.7695 #Expl.:956/1253 #Buy:525 #Sell:478 #Hold:250 #Stocks:158 PV:7,047 LC:1068 Loss:5.821222 ET:16.1302
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 117/500] Epsilon:0.7675 #Expl.:953/1253 #Buy:223 #Sell:186 #Hold:844 #Stocks:128 PV:5,317 LC:1233 Loss:15.212148 ET:18.1884
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 118/500] Epsilon:0.7655 #Expl.:956/1253 #Buy:414 #Sell:377 #Hold:462 #Stocks:125 PV:5,198 LC:1152 Loss:14.836901 ET:16.9900
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 119/500] Epsilon:0.7635 #Expl.:972/1253 #Buy:326 #Sell:289 #Hold:638 #Stocks:130 PV:5,417 LC:1221 Loss:14.405622 ET:18.0638
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 120/500] Epsilon:0.7615 #Expl.:974/1253 #Buy:190 #Sell:159 #Hold:904 #Stocks:126 PV:5,262 LC:1218 Loss:14.857755 ET:17.7196
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 121/500] Epsilon:0.7595 #Expl.:951/1253 #Buy:248 #Sell:216 #Hold:789 #Stocks:121 PV:5,057 LC:1218 Loss:14.991519 ET:18.0794
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 122/500] Epsilon:0.7575 #Expl.:956/1253 #Buy:220 #Sell:184 #Hold:849 #Stocks:123 PV:5,136 LC:1229 Loss:16.846772 ET:17.8623
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 123/500] Epsilon:0.7555 #Expl.:950/1253 #Buy:443 #Sell:408 #Hold:402 #Stocks:104 PV:4,643 LC:1189 Loss:19.186786 ET:17.6730
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 124/500] Epsilon:0.7535 #Expl.:949/1253 #Buy:513 #Sell:472 #Hold:268 #Stocks:166 PV:7,498 LC:1189 Loss:6.483744 ET:17.4776
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 125/500] Epsilon:0.7515 #Expl.:932/1253 #Buy:499 #Sell:449 #Hold:305 #Stocks:176 PV:7,330 LC:1184 Loss:4.859771 ET:17.6066
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 126/500] Epsilon:0.7495 #Expl.:907/1253 #Buy:276 #Sell:242 #Hold:735 #Stocks:121 PV:5,040 LC:1190 Loss:16.424400 ET:17.5587
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 127/500] Epsilon:0.7475 #Expl.:937/1253 #Buy:527 #Sell:481 #Hold:245 #Stocks:173 PV:8,492 LC:1178 Loss:4.027825 ET:17.5978
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 128/500] Epsilon:0.7455 #Expl.:934/1253 #Buy:400 #Sell:359 #Hold:494 #Stocks:133 PV:5,526 LC:1195 Loss:14.024580 ET:17.7753
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 129/500] Epsilon:0.7435 #Expl.:931/1253 #Buy:446 #Sell:405 #Hold:402 #Stocks:148 PV:6,160 LC:1229 Loss:8.001677 ET:17.9033
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 130/500] Epsilon:0.7415 #Expl.:940/1253 #Buy:400 #Sell:358 #Hold:495 #Stocks:125 PV:5,195 LC:1188 Loss:15.557625 ET:17.7024
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 131/500] Epsilon:0.7395 #Expl.:934/1253 #Buy:274 #Sell:240 #Hold:739 #Stocks:123 PV:5,111 LC:1220 Loss:16.254912 ET:17.7913
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 132/500] Epsilon:0.7375 #Expl.:945/1253 #Buy:505 #Sell:458 #Hold:290 #Stocks:161 PV:6,702 LC:1208 Loss:5.869659 ET:17.8788
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 133/500] Epsilon:0.7355 #Expl.:935/1253 #Buy:527 #Sell:483 #Hold:243 #Stocks:167 PV:6,953 LC:1171 Loss:4.589231 ET:17.1452
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 134/500] Epsilon:0.7335 #Expl.:924/1253 #Buy:506 #Sell:461 #Hold:286 #Stocks:174 PV:7,237 LC:1128 Loss:4.366343 ET:16.9455
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 135/500] Epsilon:0.7315 #Expl.:924/1253 #Buy:428 #Sell:387 #Hold:438 #Stocks:155 PV:6,466 LC:1223 Loss:7.631830 ET:17.9280
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 136/500] Epsilon:0.7295 #Expl.:899/1253 #Buy:276 #Sell:235 #Hold:742 #Stocks:123 PV:5,322 LC:1214 Loss:14.935149 ET:17.9697
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 137/500] Epsilon:0.7275 #Expl.:895/1253 #Buy:454 #Sell:410 #Hold:389 #Stocks:158 PV:6,589 LC:1218 Loss:7.107255 ET:17.8536
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 138/500] Epsilon:0.7255 #Expl.:883/1253 #Buy:396 #Sell:359 #Hold:498 #Stocks:137 PV:5,710 LC:1184 Loss:10.735464 ET:17.6665
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 139/500] Epsilon:0.7234 #Expl.:924/1253 #Buy:287 #Sell:247 #Hold:719 #Stocks:117 PV:4,879 LC:1230 Loss:19.046009 ET:18.1312
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 140/500] Epsilon:0.7214 #Expl.:911/1253 #Buy:171 #Sell:138 #Hold:944 #Stocks:129 PV:5,359 LC:1221 Loss:13.829974 ET:17.8837
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 141/500] Epsilon:0.7194 #Expl.:891/1253 #Buy:328 #Sell:293 #Hold:632 #Stocks:117 PV:4,892 LC:1199 Loss:17.932527 ET:17.8318
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 142/500] Epsilon:0.7174 #Expl.:874/1253 #Buy:494 #Sell:445 #Hold:314 #Stocks:178 PV:7,403 LC:1212 Loss:5.887282 ET:17.8042
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 143/500] Epsilon:0.7154 #Expl.:862/1253 #Buy:485 #Sell:434 #Hold:334 #Stocks:177 PV:7,587 LC:1172 Loss:4.473274 ET:17.6051
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 144/500] Epsilon:0.7134 #Expl.:869/1253 #Buy:486 #Sell:441 #Hold:326 #Stocks:165 PV:7,759 LC:997 Loss:3.401160 ET:14.9922
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 145/500] Epsilon:0.7114 #Expl.:874/1253 #Buy:369 #Sell:335 #Hold:549 #Stocks:112 PV:4,655 LC:1176 Loss:24.039520 ET:17.5488
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 146/500] Epsilon:0.7094 #Expl.:892/1253 #Buy:399 #Sell:355 #Hold:499 #Stocks:138 PV:5,756 LC:1194 Loss:11.547914 ET:17.5064
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 147/500] Epsilon:0.7074 #Expl.:876/1253 #Buy:443 #Sell:402 #Hold:408 #Stocks:140 PV:5,829 LC:1133 Loss:9.910742 ET:16.9586
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 148/500] Epsilon:0.7054 #Expl.:862/1253 #Buy:430 #Sell:388 #Hold:435 #Stocks:164 PV:7,048 LC:1228 Loss:5.742678 ET:18.0927
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 149/500] Epsilon:0.7034 #Expl.:901/1253 #Buy:490 #Sell:440 #Hold:323 #Stocks:166 PV:6,910 LC:1194 Loss:4.780830 ET:17.6105
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 150/500] Epsilon:0.7014 #Expl.:856/1253 #Buy:491 #Sell:441 #Hold:321 #Stocks:204 PV:8,942 LC:1052 Loss:6.314178 ET:15.9796
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 151/500] Epsilon:0.6994 #Expl.:867/1253 #Buy:209 #Sell:176 #Hold:868 #Stocks:127 PV:5,278 LC:1221 Loss:15.940516 ET:17.9046
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 152/500] Epsilon:0.6974 #Expl.:870/1253 #Buy:259 #Sell:218 #Hold:776 #Stocks:122 PV:5,068 LC:1210 Loss:18.052058 ET:17.9692
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 153/500] Epsilon:0.6954 #Expl.:864/1253 #Buy:432 #Sell:385 #Hold:436 #Stocks:175 PV:7,317 LC:1187 Loss:4.791987 ET:17.3027
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 154/500] Epsilon:0.6934 #Expl.:878/1253 #Buy:176 #Sell:147 #Hold:930 #Stocks:116 PV:4,833 LC:1190 Loss:20.086535 ET:17.6737
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 155/500] Epsilon:0.6914 #Expl.:844/1253 #Buy:434 #Sell:388 #Hold:431 #Stocks:164 PV:6,827 LC:1178 Loss:5.041272 ET:17.3180
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 156/500] Epsilon:0.6894 #Expl.:870/1253 #Buy:497 #Sell:450 #Hold:306 #Stocks:161 PV:6,695 LC:1167 Loss:5.346963 ET:17.4379
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 157/500] Epsilon:0.6874 #Expl.:877/1253 #Buy:530 #Sell:481 #Hold:242 #Stocks:201 PV:8,363 LC:1040 Loss:3.839026 ET:15.8145
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 158/500] Epsilon:0.6854 #Expl.:871/1253 #Buy:476 #Sell:430 #Hold:347 #Stocks:179 PV:7,460 LC:1182 Loss:3.447787 ET:17.4213
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 159/500] Epsilon:0.6834 #Expl.:856/1253 #Buy:272 #Sell:233 #Hold:748 #Stocks:128 PV:5,318 LC:1219 Loss:14.975761 ET:18.0898
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 160/500] Epsilon:0.6814 #Expl.:838/1253 #Buy:293 #Sell:266 #Hold:694 #Stocks:112 PV:4,673 LC:1140 Loss:22.187293 ET:16.8068
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 161/500] Epsilon:0.6794 #Expl.:836/1253 #Buy:269 #Sell:228 #Hold:756 #Stocks:131 PV:5,474 LC:1217 Loss:12.733386 ET:18.0490
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 162/500] Epsilon:0.6774 #Expl.:842/1253 #Buy:308 #Sell:270 #Hold:675 #Stocks:130 PV:5,414 LC:1190 Loss:14.322649 ET:17.4176
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 163/500] Epsilon:0.6754 #Expl.:866/1253 #Buy:504 #Sell:465 #Hold:284 #Stocks:163 PV:7,002 LC:1069 Loss:5.971028 ET:16.1223
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 164/500] Epsilon:0.6733 #Expl.:871/1253 #Buy:420 #Sell:377 #Hold:456 #Stocks:143 PV:5,961 LC:1174 Loss:8.323994 ET:17.4142
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 165/500] Epsilon:0.6713 #Expl.:839/1253 #Buy:435 #Sell:388 #Hold:430 #Stocks:158 PV:7,176 LC:1172 Loss:4.166329 ET:17.4448
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 166/500] Epsilon:0.6693 #Expl.:847/1253 #Buy:302 #Sell:264 #Hold:687 #Stocks:134 PV:5,567 LC:1211 Loss:13.437512 ET:17.9846
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 167/500] Epsilon:0.6673 #Expl.:838/1253 #Buy:193 #Sell:162 #Hold:898 #Stocks:130 PV:5,423 LC:1234 Loss:13.841716 ET:18.2956
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 168/500] Epsilon:0.6653 #Expl.:846/1253 #Buy:252 #Sell:216 #Hold:785 #Stocks:111 PV:4,614 LC:1182 Loss:20.963804 ET:17.6485
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 169/500] Epsilon:0.6633 #Expl.:827/1253 #Buy:440 #Sell:398 #Hold:415 #Stocks:157 PV:6,731 LC:1137 Loss:5.671873 ET:16.8619
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 170/500] Epsilon:0.6613 #Expl.:822/1253 #Buy:224 #Sell:187 #Hold:842 #Stocks:120 PV:4,986 LC:1211 Loss:17.450325 ET:17.9521
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 171/500] Epsilon:0.6593 #Expl.:806/1253 #Buy:227 #Sell:192 #Hold:834 #Stocks:132 PV:5,490 LC:1219 Loss:13.664993 ET:17.7976
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 172/500] Epsilon:0.6573 #Expl.:832/1253 #Buy:421 #Sell:371 #Hold:461 #Stocks:171 PV:7,116 LC:1049 Loss:5.404991 ET:15.9535
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 173/500] Epsilon:0.6553 #Expl.:820/1253 #Buy:352 #Sell:316 #Hold:585 #Stocks:125 PV:5,422 LC:1208 Loss:13.442283 ET:17.6680
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 174/500] Epsilon:0.6533 #Expl.:833/1253 #Buy:408 #Sell:368 #Hold:477 #Stocks:141 PV:5,873 LC:1060 Loss:8.474360 ET:16.0938
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 175/500] Epsilon:0.6513 #Expl.:816/1253 #Buy:481 #Sell:438 #Hold:334 #Stocks:173 PV:7,206 LC:1064 Loss:4.499582 ET:16.1391
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 176/500] Epsilon:0.6493 #Expl.:816/1253 #Buy:372 #Sell:337 #Hold:544 #Stocks:113 PV:4,717 LC:1184 Loss:24.457679 ET:17.4422
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 177/500] Epsilon:0.6473 #Expl.:821/1253 #Buy:443 #Sell:403 #Hold:407 #Stocks:143 PV:6,965 LC:1185 Loss:6.261816 ET:17.7307
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 178/500] Epsilon:0.6453 #Expl.:827/1253 #Buy:320 #Sell:283 #Hold:650 #Stocks:133 PV:5,531 LC:1210 Loss:13.450372 ET:17.7424
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 179/500] Epsilon:0.6433 #Expl.:809/1253 #Buy:319 #Sell:281 #Hold:653 #Stocks:124 PV:5,176 LC:1210 Loss:15.175503 ET:17.9527
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 180/500] Epsilon:0.6413 #Expl.:802/1253 #Buy:341 #Sell:302 #Hold:610 #Stocks:145 PV:6,047 LC:1182 Loss:8.281121 ET:17.4360
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 181/500] Epsilon:0.6393 #Expl.:805/1253 #Buy:395 #Sell:350 #Hold:508 #Stocks:177 PV:7,367 LC:1206 Loss:4.697341 ET:17.9960
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 182/500] Epsilon:0.6373 #Expl.:796/1253 #Buy:420 #Sell:374 #Hold:459 #Stocks:159 PV:6,606 LC:1058 Loss:5.656938 ET:15.8240
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 183/500] Epsilon:0.6353 #Expl.:803/1253 #Buy:384 #Sell:340 #Hold:529 #Stocks:160 PV:6,653 LC:1174 Loss:5.023384 ET:17.5705
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 184/500] Epsilon:0.6333 #Expl.:796/1253 #Buy:264 #Sell:226 #Hold:763 #Stocks:131 PV:5,442 LC:1185 Loss:13.803869 ET:17.5331
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 185/500] Epsilon:0.6313 #Expl.:806/1253 #Buy:446 #Sell:393 #Hold:414 #Stocks:166 PV:6,917 LC:1156 Loss:4.553606 ET:17.3054
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 186/500] Epsilon:0.6293 #Expl.:769/1253 #Buy:345 #Sell:304 #Hold:604 #Stocks:138 PV:5,737 LC:1172 Loss:11.086210 ET:17.5677
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 187/500] Epsilon:0.6273 #Expl.:798/1253 #Buy:344 #Sell:305 #Hold:604 #Stocks:147 PV:6,111 LC:1183 Loss:7.611466 ET:17.5277
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 188/500] Epsilon:0.6253 #Expl.:765/1253 #Buy:234 #Sell:200 #Hold:819 #Stocks:126 PV:5,247 LC:1190 Loss:15.332048 ET:17.7399
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 189/500] Epsilon:0.6232 #Expl.:766/1253 #Buy:268 #Sell:233 #Hold:752 #Stocks:131 PV:5,457 LC:1224 Loss:12.790773 ET:16.9240
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 190/500] Epsilon:0.6212 #Expl.:776/1253 #Buy:460 #Sell:414 #Hold:379 #Stocks:178 PV:7,394 LC:1135 Loss:4.679551 ET:15.1116
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 191/500] Epsilon:0.6192 #Expl.:790/1253 #Buy:213 #Sell:182 #Hold:858 #Stocks:127 PV:5,302 LC:1215 Loss:15.449672 ET:16.0633
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 192/500] Epsilon:0.6172 #Expl.:778/1253 #Buy:350 #Sell:319 #Hold:584 #Stocks:116 PV:5,033 LC:1143 Loss:15.798582 ET:15.2637
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 193/500] Epsilon:0.6152 #Expl.:790/1253 #Buy:417 #Sell:378 #Hold:458 #Stocks:158 PV:6,597 LC:1147 Loss:5.735649 ET:15.2735
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 194/500] Epsilon:0.6132 #Expl.:786/1253 #Buy:405 #Sell:363 #Hold:485 #Stocks:161 PV:6,910 LC:1050 Loss:4.971585 ET:14.1263
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 195/500] Epsilon:0.6112 #Expl.:747/1253 #Buy:421 #Sell:376 #Hold:456 #Stocks:171 PV:7,326 LC:982 Loss:3.737147 ET:13.4068
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 196/500] Epsilon:0.6092 #Expl.:752/1253 #Buy:403 #Sell:358 #Hold:492 #Stocks:169 PV:7,050 LC:994 Loss:4.238113 ET:13.6092
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 197/500] Epsilon:0.6072 #Expl.:795/1253 #Buy:365 #Sell:335 #Hold:553 #Stocks:127 PV:5,893 LC:1144 Loss:9.130235 ET:15.1890
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 198/500] Epsilon:0.6052 #Expl.:769/1253 #Buy:323 #Sell:288 #Hold:642 #Stocks:116 PV:4,822 LC:1172 Loss:20.373480 ET:15.5208
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 199/500] Epsilon:0.6032 #Expl.:761/1253 #Buy:248 #Sell:217 #Hold:788 #Stocks:125 PV:5,228 LC:1193 Loss:15.635284 ET:15.6810
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 200/500] Epsilon:0.6012 #Expl.:751/1253 #Buy:423 #Sell:376 #Hold:454 #Stocks:182 PV:7,587 LC:1016 Loss:4.955137 ET:13.8798
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 201/500] Epsilon:0.5992 #Expl.:740/1253 #Buy:432 #Sell:387 #Hold:434 #Stocks:173 PV:7,426 LC:1154 Loss:3.652749 ET:15.3324
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 202/500] Epsilon:0.5972 #Expl.:762/1253 #Buy:381 #Sell:340 #Hold:532 #Stocks:161 PV:6,699 LC:1218 Loss:4.576745 ET:15.9780
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 203/500] Epsilon:0.5952 #Expl.:746/1253 #Buy:398 #Sell:355 #Hold:500 #Stocks:163 PV:6,771 LC:1137 Loss:5.059106 ET:15.1872
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 204/500] Epsilon:0.5932 #Expl.:768/1253 #Buy:377 #Sell:334 #Hold:542 #Stocks:170 PV:7,077 LC:1179 Loss:3.859333 ET:15.6270
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 205/500] Epsilon:0.5912 #Expl.:760/1253 #Buy:435 #Sell:388 #Hold:430 #Stocks:159 PV:6,823 LC:1135 Loss:4.594585 ET:15.1685
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 206/500] Epsilon:0.5892 #Expl.:714/1253 #Buy:380 #Sell:340 #Hold:533 #Stocks:157 PV:6,560 LC:1060 Loss:6.373989 ET:14.3324
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 207/500] Epsilon:0.5872 #Expl.:751/1253 #Buy:485 #Sell:434 #Hold:334 #Stocks:204 PV:8,484 LC:923 Loss:4.209669 ET:12.8142
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 208/500] Epsilon:0.5852 #Expl.:730/1253 #Buy:259 #Sell:227 #Hold:767 #Stocks:132 PV:5,500 LC:1177 Loss:13.925293 ET:15.6853
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 209/500] Epsilon:0.5832 #Expl.:721/1253 #Buy:372 #Sell:328 #Hold:553 #Stocks:173 PV:7,216 LC:1145 Loss:4.098654 ET:15.1725
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 210/500] Epsilon:0.5812 #Expl.:732/1253 #Buy:350 #Sell:316 #Hold:587 #Stocks:144 PV:6,211 LC:1187 Loss:7.702940 ET:15.7461
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 211/500] Epsilon:0.5792 #Expl.:690/1253 #Buy:352 #Sell:313 #Hold:588 #Stocks:163 PV:6,801 LC:1149 Loss:4.824226 ET:15.2315
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 212/500] Epsilon:0.5772 #Expl.:714/1253 #Buy:440 #Sell:393 #Hold:420 #Stocks:170 PV:7,087 LC:984 Loss:4.048586 ET:13.5243
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 213/500] Epsilon:0.5752 #Expl.:714/1253 #Buy:387 #Sell:341 #Hold:525 #Stocks:175 PV:7,397 LC:1140 Loss:3.685853 ET:15.2544
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 214/500] Epsilon:0.5731 #Expl.:724/1253 #Buy:404 #Sell:361 #Hold:488 #Stocks:169 PV:7,119 LC:1061 Loss:4.468423 ET:14.3335
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 215/500] Epsilon:0.5711 #Expl.:708/1253 #Buy:383 #Sell:338 #Hold:532 #Stocks:159 PV:6,606 LC:1059 Loss:5.434555 ET:14.2941
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 216/500] Epsilon:0.5691 #Expl.:720/1253 #Buy:246 #Sell:216 #Hold:791 #Stocks:110 PV:4,574 LC:1181 Loss:25.317380 ET:15.6293
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 217/500] Epsilon:0.5671 #Expl.:690/1253 #Buy:457 #Sell:409 #Hold:387 #Stocks:196 PV:8,402 LC:1053 Loss:4.957340 ET:14.3429
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 218/500] Epsilon:0.5651 #Expl.:706/1253 #Buy:332 #Sell:292 #Hold:629 #Stocks:146 PV:6,074 LC:1125 Loss:8.316421 ET:15.0572
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 219/500] Epsilon:0.5631 #Expl.:715/1253 #Buy:230 #Sell:202 #Hold:821 #Stocks:121 PV:5,037 LC:1189 Loss:17.849968 ET:15.7415
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 220/500] Epsilon:0.5611 #Expl.:737/1253 #Buy:457 #Sell:410 #Hold:386 #Stocks:173 PV:7,406 LC:1053 Loss:4.058939 ET:14.2521
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 221/500] Epsilon:0.5591 #Expl.:699/1253 #Buy:354 #Sell:311 #Hold:588 #Stocks:173 PV:7,187 LC:1017 Loss:3.805336 ET:13.9105
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 222/500] Epsilon:0.5571 #Expl.:687/1253 #Buy:320 #Sell:282 #Hold:651 #Stocks:161 PV:6,721 LC:1149 Loss:5.194876 ET:15.2853
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 223/500] Epsilon:0.5551 #Expl.:685/1253 #Buy:367 #Sell:325 #Hold:561 #Stocks:166 PV:6,900 LC:1141 Loss:4.611741 ET:15.2746
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 224/500] Epsilon:0.5531 #Expl.:681/1253 #Buy:304 #Sell:263 #Hold:686 #Stocks:165 PV:6,870 LC:1212 Loss:4.670130 ET:15.9781
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 225/500] Epsilon:0.5511 #Expl.:694/1253 #Buy:249 #Sell:212 #Hold:792 #Stocks:123 PV:5,110 LC:1179 Loss:17.403251 ET:15.6712
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 226/500] Epsilon:0.5491 #Expl.:675/1253 #Buy:265 #Sell:233 #Hold:755 #Stocks:129 PV:5,376 LC:1137 Loss:14.650082 ET:15.2556
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 227/500] Epsilon:0.5471 #Expl.:714/1253 #Buy:379 #Sell:338 #Hold:536 #Stocks:179 PV:7,469 LC:1169 Loss:4.594086 ET:15.5623
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 228/500] Epsilon:0.5451 #Expl.:707/1253 #Buy:290 #Sell:261 #Hold:702 #Stocks:128 PV:5,318 LC:1182 Loss:15.389004 ET:15.7567
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 229/500] Epsilon:0.5431 #Expl.:701/1253 #Buy:347 #Sell:307 #Hold:599 #Stocks:149 PV:6,426 LC:1177 Loss:7.127610 ET:15.6107
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 230/500] Epsilon:0.5411 #Expl.:683/1253 #Buy:321 #Sell:280 #Hold:652 #Stocks:148 PV:6,163 LC:1174 Loss:8.628225 ET:15.5250
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 231/500] Epsilon:0.5391 #Expl.:678/1253 #Buy:329 #Sell:287 #Hold:637 #Stocks:162 PV:6,735 LC:1178 Loss:5.408240 ET:15.6958
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 232/500] Epsilon:0.5371 #Expl.:686/1253 #Buy:369 #Sell:320 #Hold:564 #Stocks:177 PV:7,383 LC:1172 Loss:3.706323 ET:15.5167
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 233/500] Epsilon:0.5351 #Expl.:655/1253 #Buy:290 #Sell:252 #Hold:711 #Stocks:157 PV:6,540 LC:1140 Loss:6.881685 ET:15.2141
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 234/500] Epsilon:0.5331 #Expl.:630/1253 #Buy:373 #Sell:328 #Hold:552 #Stocks:162 PV:6,767 LC:1016 Loss:4.298042 ET:13.8676
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 235/500] Epsilon:0.5311 #Expl.:649/1253 #Buy:331 #Sell:288 #Hold:634 #Stocks:164 PV:7,048 LC:1110 Loss:4.555978 ET:14.8366
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 236/500] Epsilon:0.5291 #Expl.:684/1253 #Buy:376 #Sell:334 #Hold:543 #Stocks:153 PV:6,384 LC:1057 Loss:6.913647 ET:14.3177
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 237/500] Epsilon:0.5271 #Expl.:691/1253 #Buy:347 #Sell:306 #Hold:600 #Stocks:170 PV:7,081 LC:1176 Loss:3.882119 ET:15.6091
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 238/500] Epsilon:0.5251 #Expl.:658/1253 #Buy:384 #Sell:329 #Hold:540 #Stocks:181 PV:7,755 LC:1051 Loss:3.674704 ET:14.2128
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 239/500] Epsilon:0.5230 #Expl.:644/1253 #Buy:386 #Sell:336 #Hold:531 #Stocks:168 PV:7,204 LC:1177 Loss:3.494261 ET:15.5937
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 240/500] Epsilon:0.5210 #Expl.:683/1253 #Buy:262 #Sell:229 #Hold:762 #Stocks:129 PV:5,379 LC:1213 Loss:14.519728 ET:16.0316
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 241/500] Epsilon:0.5190 #Expl.:656/1253 #Buy:265 #Sell:235 #Hold:753 #Stocks:114 PV:4,758 LC:1138 Loss:21.550970 ET:15.2548
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 242/500] Epsilon:0.5170 #Expl.:659/1253 #Buy:397 #Sell:356 #Hold:500 #Stocks:174 PV:7,280 LC:1202 Loss:4.548034 ET:15.8488
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 243/500] Epsilon:0.5150 #Expl.:645/1253 #Buy:359 #Sell:319 #Hold:575 #Stocks:167 PV:6,945 LC:1053 Loss:4.420357 ET:14.2761
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 244/500] Epsilon:0.5130 #Expl.:679/1253 #Buy:412 #Sell:362 #Hold:479 #Stocks:176 PV:7,349 LC:1064 Loss:3.380622 ET:14.4214
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 245/500] Epsilon:0.5110 #Expl.:624/1253 #Buy:337 #Sell:293 #Hold:623 #Stocks:170 PV:7,084 LC:1064 Loss:4.212177 ET:14.3610
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 246/500] Epsilon:0.5090 #Expl.:643/1253 #Buy:379 #Sell:340 #Hold:534 #Stocks:153 PV:6,393 LC:1059 Loss:6.627296 ET:14.3234
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 247/500] Epsilon:0.5070 #Expl.:615/1253 #Buy:402 #Sell:357 #Hold:494 #Stocks:168 PV:7,000 LC:1051 Loss:4.433948 ET:14.2584
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 248/500] Epsilon:0.5050 #Expl.:635/1253 #Buy:261 #Sell:227 #Hold:765 #Stocks:158 PV:6,564 LC:1191 Loss:6.117044 ET:15.7550
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 249/500] Epsilon:0.5030 #Expl.:637/1253 #Buy:350 #Sell:308 #Hold:595 #Stocks:177 PV:7,570 LC:1030 Loss:3.368035 ET:13.9955
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 250/500] Epsilon:0.5010 #Expl.:640/1253 #Buy:337 #Sell:296 #Hold:620 #Stocks:169 PV:7,043 LC:1138 Loss:4.403975 ET:15.1755
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 251/500] Epsilon:0.4990 #Expl.:637/1253 #Buy:330 #Sell:291 #Hold:632 #Stocks:163 PV:6,786 LC:994 Loss:4.847811 ET:13.5571
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 252/500] Epsilon:0.4970 #Expl.:632/1253 #Buy:326 #Sell:288 #Hold:639 #Stocks:160 PV:6,687 LC:1058 Loss:5.713759 ET:14.3598
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 253/500] Epsilon:0.4950 #Expl.:633/1253 #Buy:311 #Sell:267 #Hold:675 #Stocks:173 PV:7,188 LC:1169 Loss:4.061890 ET:15.5207
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 254/500] Epsilon:0.4930 #Expl.:609/1253 #Buy:306 #Sell:265 #Hold:682 #Stocks:168 PV:6,998 LC:1172 Loss:4.284017 ET:15.5019
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 255/500] Epsilon:0.4910 #Expl.:632/1253 #Buy:423 #Sell:374 #Hold:456 #Stocks:184 PV:7,661 LC:1049 Loss:3.034031 ET:14.1293
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 256/500] Epsilon:0.4890 #Expl.:641/1253 #Buy:310 #Sell:273 #Hold:670 #Stocks:150 PV:6,234 LC:1182 Loss:8.655436 ET:15.7628
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 257/500] Epsilon:0.4870 #Expl.:603/1253 #Buy:339 #Sell:294 #Hold:620 #Stocks:170 PV:7,072 LC:1191 Loss:4.024950 ET:15.7857
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 258/500] Epsilon:0.4850 #Expl.:616/1253 #Buy:299 #Sell:261 #Hold:693 #Stocks:153 PV:6,368 LC:995 Loss:6.868673 ET:13.5487
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 259/500] Epsilon:0.4830 #Expl.:602/1253 #Buy:293 #Sell:257 #Hold:703 #Stocks:166 PV:6,925 LC:1133 Loss:4.779286 ET:15.2707
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 260/500] Epsilon:0.4810 #Expl.:609/1253 #Buy:300 #Sell:257 #Hold:696 #Stocks:159 PV:6,630 LC:1234 Loss:6.011902 ET:16.2626
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 261/500] Epsilon:0.4790 #Expl.:631/1253 #Buy:388 #Sell:342 #Hold:523 #Stocks:191 PV:7,953 LC:979 Loss:3.429171 ET:13.5787
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 262/500] Epsilon:0.4770 #Expl.:594/1253 #Buy:293 #Sell:255 #Hold:705 #Stocks:155 PV:6,439 LC:1058 Loss:6.406171 ET:14.3211
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 263/500] Epsilon:0.4749 #Expl.:596/1253 #Buy:269 #Sell:235 #Hold:749 #Stocks:154 PV:6,412 LC:1173 Loss:6.864036 ET:15.6681
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 264/500] Epsilon:0.4729 #Expl.:567/1253 #Buy:282 #Sell:242 #Hold:729 #Stocks:172 PV:7,150 LC:1217 Loss:3.971973 ET:16.0490
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 265/500] Epsilon:0.4709 #Expl.:576/1253 #Buy:370 #Sell:323 #Hold:560 #Stocks:175 PV:7,281 LC:1016 Loss:4.008948 ET:13.9762
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 266/500] Epsilon:0.4689 #Expl.:589/1253 #Buy:373 #Sell:330 #Hold:550 #Stocks:178 PV:7,637 LC:895 Loss:3.242681 ET:12.7195
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 267/500] Epsilon:0.4669 #Expl.:606/1253 #Buy:323 #Sell:282 #Hold:648 #Stocks:171 PV:7,120 LC:1016 Loss:3.858823 ET:13.9002
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 268/500] Epsilon:0.4649 #Expl.:581/1253 #Buy:314 #Sell:273 #Hold:666 #Stocks:168 PV:6,990 LC:1065 Loss:4.504364 ET:14.5425
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 269/500] Epsilon:0.4629 #Expl.:563/1253 #Buy:279 #Sell:235 #Hold:739 #Stocks:180 PV:7,478 LC:1188 Loss:3.230021 ET:15.7307
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 270/500] Epsilon:0.4609 #Expl.:542/1253 #Buy:276 #Sell:239 #Hold:738 #Stocks:161 PV:6,720 LC:1057 Loss:5.196239 ET:14.3315
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 271/500] Epsilon:0.4589 #Expl.:591/1253 #Buy:279 #Sell:240 #Hold:734 #Stocks:159 PV:6,632 LC:1051 Loss:5.813412 ET:14.2324
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 272/500] Epsilon:0.4569 #Expl.:586/1253 #Buy:326 #Sell:285 #Hold:642 #Stocks:168 PV:6,981 LC:1004 Loss:4.030307 ET:13.8020
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 273/500] Epsilon:0.4549 #Expl.:571/1253 #Buy:381 #Sell:337 #Hold:535 #Stocks:183 PV:7,619 LC:854 Loss:2.967102 ET:12.0799
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 274/500] Epsilon:0.4529 #Expl.:562/1253 #Buy:305 #Sell:268 #Hold:680 #Stocks:154 PV:6,398 LC:1226 Loss:6.458875 ET:16.3130
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 275/500] Epsilon:0.4509 #Expl.:573/1253 #Buy:360 #Sell:307 #Hold:586 #Stocks:188 PV:7,840 LC:1016 Loss:3.256612 ET:13.8362
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 276/500] Epsilon:0.4489 #Expl.:575/1253 #Buy:320 #Sell:277 #Hold:656 #Stocks:178 PV:7,416 LC:904 Loss:3.083805 ET:12.5602
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 277/500] Epsilon:0.4469 #Expl.:602/1253 #Buy:358 #Sell:311 #Hold:584 #Stocks:171 PV:7,328 LC:985 Loss:3.381820 ET:13.5103
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 278/500] Epsilon:0.4449 #Expl.:612/1253 #Buy:387 #Sell:339 #Hold:527 #Stocks:176 PV:7,509 LC:1001 Loss:3.022869 ET:13.7112
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 279/500] Epsilon:0.4429 #Expl.:549/1253 #Buy:296 #Sell:256 #Hold:701 #Stocks:170 PV:7,088 LC:1013 Loss:4.297288 ET:13.8859
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 280/500] Epsilon:0.4409 #Expl.:565/1253 #Buy:301 #Sell:256 #Hold:696 #Stocks:180 PV:7,490 LC:1020 Loss:3.521714 ET:13.9311
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 281/500] Epsilon:0.4389 #Expl.:533/1253 #Buy:349 #Sell:301 #Hold:603 #Stocks:172 PV:7,169 LC:1036 Loss:3.781397 ET:14.6390
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 282/500] Epsilon:0.4369 #Expl.:541/1253 #Buy:347 #Sell:299 #Hold:607 #Stocks:184 PV:7,661 LC:924 Loss:3.200574 ET:12.9590
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 283/500] Epsilon:0.4349 #Expl.:559/1253 #Buy:288 #Sell:250 #Hold:715 #Stocks:164 PV:6,841 LC:1213 Loss:5.116629 ET:16.1295
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 284/500] Epsilon:0.4329 #Expl.:562/1253 #Buy:321 #Sell:281 #Hold:651 #Stocks:173 PV:7,394 LC:1100 Loss:3.398752 ET:14.9065
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 285/500] Epsilon:0.4309 #Expl.:514/1253 #Buy:346 #Sell:297 #Hold:610 #Stocks:182 PV:7,740 LC:1014 Loss:3.176012 ET:13.9516
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 286/500] Epsilon:0.4289 #Expl.:556/1253 #Buy:352 #Sell:308 #Hold:593 #Stocks:176 PV:7,327 LC:983 Loss:3.176346 ET:13.5206
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 287/500] Epsilon:0.4269 #Expl.:531/1253 #Buy:329 #Sell:287 #Hold:637 #Stocks:184 PV:7,656 LC:902 Loss:3.277115 ET:12.7302
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 288/500] Epsilon:0.4248 #Expl.:527/1253 #Buy:351 #Sell:305 #Hold:597 #Stocks:182 PV:7,599 LC:1057 Loss:3.784999 ET:14.3254
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 289/500] Epsilon:0.4228 #Expl.:525/1253 #Buy:372 #Sell:323 #Hold:558 #Stocks:187 PV:7,792 LC:1000 Loss:2.774511 ET:13.8108
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 290/500] Epsilon:0.4208 #Expl.:542/1253 #Buy:330 #Sell:287 #Hold:636 #Stocks:186 PV:7,742 LC:1051 Loss:3.295125 ET:14.3092
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 291/500] Epsilon:0.4188 #Expl.:514/1253 #Buy:323 #Sell:280 #Hold:650 #Stocks:181 PV:7,529 LC:866 Loss:3.765745 ET:12.1809
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 292/500] Epsilon:0.4168 #Expl.:536/1253 #Buy:301 #Sell:257 #Hold:695 #Stocks:172 PV:7,145 LC:1197 Loss:4.103377 ET:15.9289
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 293/500] Epsilon:0.4148 #Expl.:503/1253 #Buy:319 #Sell:279 #Hold:655 #Stocks:176 PV:7,327 LC:1016 Loss:3.548927 ET:13.8153
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 294/500] Epsilon:0.4128 #Expl.:510/1253 #Buy:354 #Sell:309 #Hold:590 #Stocks:188 PV:7,842 LC:860 Loss:3.069035 ET:12.2085
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 295/500] Epsilon:0.4108 #Expl.:545/1253 #Buy:382 #Sell:337 #Hold:534 #Stocks:179 PV:7,470 LC:1009 Loss:2.967110 ET:13.8290
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 296/500] Epsilon:0.4088 #Expl.:490/1253 #Buy:327 #Sell:288 #Hold:638 #Stocks:155 PV:7,467 LC:1049 Loss:3.505990 ET:14.2716
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 297/500] Epsilon:0.4068 #Expl.:500/1253 #Buy:287 #Sell:242 #Hold:724 #Stocks:172 PV:7,171 LC:1059 Loss:3.832444 ET:14.3801
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 298/500] Epsilon:0.4048 #Expl.:528/1253 #Buy:321 #Sell:276 #Hold:656 #Stocks:174 PV:7,451 LC:936 Loss:3.784467 ET:13.0879
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 299/500] Epsilon:0.4028 #Expl.:517/1253 #Buy:356 #Sell:314 #Hold:583 #Stocks:173 PV:7,424 LC:864 Loss:3.562073 ET:12.2723
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 300/500] Epsilon:0.4008 #Expl.:503/1253 #Buy:251 #Sell:214 #Hold:788 #Stocks:169 PV:7,047 LC:1155 Loss:4.228481 ET:15.5290
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 301/500] Epsilon:0.3988 #Expl.:493/1253 #Buy:259 #Sell:221 #Hold:773 #Stocks:161 PV:6,709 LC:903 Loss:5.458439 ET:12.8480
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 302/500] Epsilon:0.3968 #Expl.:499/1253 #Buy:354 #Sell:306 #Hold:593 #Stocks:184 PV:7,703 LC:1137 Loss:3.144175 ET:15.7982
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 303/500] Epsilon:0.3948 #Expl.:485/1253 #Buy:268 #Sell:226 #Hold:759 #Stocks:164 PV:6,826 LC:1064 Loss:5.086932 ET:14.9688
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 304/500] Epsilon:0.3928 #Expl.:489/1253 #Buy:291 #Sell:250 #Hold:712 #Stocks:165 PV:6,886 LC:1023 Loss:4.466342 ET:14.1537
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 305/500] Epsilon:0.3908 #Expl.:490/1253 #Buy:310 #Sell:270 #Hold:673 #Stocks:174 PV:7,237 LC:864 Loss:3.610835 ET:12.1765
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 306/500] Epsilon:0.3888 #Expl.:475/1253 #Buy:276 #Sell:235 #Hold:742 #Stocks:167 PV:6,967 LC:1228 Loss:4.267926 ET:16.2242
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 307/500] Epsilon:0.3868 #Expl.:500/1253 #Buy:310 #Sell:265 #Hold:678 #Stocks:175 PV:7,278 LC:1049 Loss:3.394866 ET:14.3559
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 308/500] Epsilon:0.3848 #Expl.:491/1253 #Buy:246 #Sell:208 #Hold:799 #Stocks:163 PV:6,772 LC:1018 Loss:4.924575 ET:13.9560
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 309/500] Epsilon:0.3828 #Expl.:491/1253 #Buy:298 #Sell:255 #Hold:700 #Stocks:174 PV:7,264 LC:1067 Loss:3.650766 ET:14.5060
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 310/500] Epsilon:0.3808 #Expl.:444/1253 #Buy:317 #Sell:269 #Hold:667 #Stocks:185 PV:7,702 LC:1049 Loss:3.410998 ET:14.3098
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 311/500] Epsilon:0.3788 #Expl.:457/1253 #Buy:311 #Sell:262 #Hold:680 #Stocks:183 PV:7,617 LC:1180 Loss:3.077113 ET:15.8338
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 312/500] Epsilon:0.3768 #Expl.:455/1253 #Buy:303 #Sell:261 #Hold:689 #Stocks:183 PV:7,630 LC:1051 Loss:3.338955 ET:14.2478
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 313/500] Epsilon:0.3747 #Expl.:448/1253 #Buy:316 #Sell:268 #Hold:669 #Stocks:175 PV:7,290 LC:997 Loss:3.872807 ET:13.6805
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 314/500] Epsilon:0.3727 #Expl.:482/1253 #Buy:292 #Sell:247 #Hold:714 #Stocks:180 PV:7,495 LC:932 Loss:3.267381 ET:12.9143
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 315/500] Epsilon:0.3707 #Expl.:462/1253 #Buy:340 #Sell:295 #Hold:618 #Stocks:188 PV:7,931 LC:1000 Loss:2.900914 ET:13.7537
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 316/500] Epsilon:0.3687 #Expl.:490/1253 #Buy:335 #Sell:291 #Hold:627 #Stocks:177 PV:7,363 LC:1001 Loss:3.153832 ET:13.7120
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 317/500] Epsilon:0.3667 #Expl.:453/1253 #Buy:308 #Sell:264 #Hold:681 #Stocks:189 PV:7,875 LC:930 Loss:3.028664 ET:12.7814
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 318/500] Epsilon:0.3647 #Expl.:472/1253 #Buy:270 #Sell:230 #Hold:753 #Stocks:173 PV:7,202 LC:864 Loss:4.031721 ET:12.1506
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 319/500] Epsilon:0.3627 #Expl.:468/1253 #Buy:355 #Sell:308 #Hold:590 #Stocks:184 PV:7,869 LC:1016 Loss:2.947822 ET:13.7837
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 320/500] Epsilon:0.3607 #Expl.:424/1253 #Buy:306 #Sell:256 #Hold:691 #Stocks:183 PV:7,611 LC:998 Loss:3.070248 ET:13.6202
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 321/500] Epsilon:0.3587 #Expl.:428/1253 #Buy:263 #Sell:223 #Hold:767 #Stocks:165 PV:6,855 LC:1051 Loss:4.625226 ET:14.2058
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 322/500] Epsilon:0.3567 #Expl.:452/1253 #Buy:309 #Sell:262 #Hold:682 #Stocks:190 PV:7,893 LC:1050 Loss:3.017260 ET:14.2871
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 323/500] Epsilon:0.3547 #Expl.:452/1253 #Buy:258 #Sell:216 #Hold:779 #Stocks:171 PV:7,139 LC:1135 Loss:3.897428 ET:15.1454
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 324/500] Epsilon:0.3527 #Expl.:474/1253 #Buy:279 #Sell:231 #Hold:743 #Stocks:173 PV:7,196 LC:1049 Loss:3.659916 ET:14.2165
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 325/500] Epsilon:0.3507 #Expl.:429/1253 #Buy:306 #Sell:258 #Hold:689 #Stocks:181 PV:7,735 LC:1148 Loss:2.891011 ET:15.2292
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 326/500] Epsilon:0.3487 #Expl.:460/1253 #Buy:255 #Sell:214 #Hold:784 #Stocks:167 PV:6,946 LC:994 Loss:4.451800 ET:13.6177
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 327/500] Epsilon:0.3467 #Expl.:462/1253 #Buy:245 #Sell:208 #Hold:800 #Stocks:163 PV:6,776 LC:1016 Loss:4.984713 ET:13.8270
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 328/500] Epsilon:0.3447 #Expl.:414/1253 #Buy:281 #Sell:237 #Hold:735 #Stocks:177 PV:7,358 LC:1053 Loss:3.829091 ET:14.3523
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 329/500] Epsilon:0.3427 #Expl.:421/1253 #Buy:229 #Sell:192 #Hold:832 #Stocks:167 PV:6,963 LC:959 Loss:4.421499 ET:13.2513
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 330/500] Epsilon:0.3407 #Expl.:430/1253 #Buy:269 #Sell:228 #Hold:756 #Stocks:167 PV:6,957 LC:1051 Loss:4.036857 ET:14.1517
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 331/500] Epsilon:0.3387 #Expl.:425/1253 #Buy:310 #Sell:267 #Hold:676 #Stocks:180 PV:7,487 LC:1016 Loss:3.427934 ET:13.8556
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 332/500] Epsilon:0.3367 #Expl.:408/1253 #Buy:270 #Sell:229 #Hold:754 #Stocks:165 PV:6,867 LC:909 Loss:4.579593 ET:12.6801
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 333/500] Epsilon:0.3347 #Expl.:425/1253 #Buy:289 #Sell:249 #Hold:715 #Stocks:173 PV:7,395 LC:1004 Loss:3.374778 ET:13.8602
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 334/500] Epsilon:0.3327 #Expl.:420/1253 #Buy:307 #Sell:257 #Hold:689 #Stocks:182 PV:7,563 LC:1049 Loss:3.098151 ET:14.2547
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 335/500] Epsilon:0.3307 #Expl.:420/1253 #Buy:332 #Sell:283 #Hold:638 #Stocks:185 PV:7,927 LC:976 Loss:3.029343 ET:13.5378
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 336/500] Epsilon:0.3287 #Expl.:414/1253 #Buy:288 #Sell:241 #Hold:724 #Stocks:181 PV:7,538 LC:1018 Loss:3.290731 ET:13.9526
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 337/500] Epsilon:0.3267 #Expl.:406/1253 #Buy:322 #Sell:275 #Hold:656 #Stocks:185 PV:7,892 LC:1053 Loss:3.164624 ET:14.3890
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 338/500] Epsilon:0.3246 #Expl.:407/1253 #Buy:311 #Sell:268 #Hold:674 #Stocks:173 PV:7,198 LC:985 Loss:3.872470 ET:13.5619
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 339/500] Epsilon:0.3226 #Expl.:401/1253 #Buy:280 #Sell:236 #Hold:737 #Stocks:171 PV:7,103 LC:1057 Loss:3.725919 ET:14.5065
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 340/500] Epsilon:0.3206 #Expl.:409/1253 #Buy:312 #Sell:269 #Hold:672 #Stocks:186 PV:7,733 LC:998 Loss:3.060112 ET:13.8081
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 341/500] Epsilon:0.3186 #Expl.:408/1253 #Buy:252 #Sell:214 #Hold:787 #Stocks:170 PV:7,069 LC:1051 Loss:4.171760 ET:14.4358
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 342/500] Epsilon:0.3166 #Expl.:411/1253 #Buy:289 #Sell:242 #Hold:722 #Stocks:187 PV:7,786 LC:851 Loss:3.147345 ET:12.0952
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 343/500] Epsilon:0.3146 #Expl.:401/1253 #Buy:308 #Sell:261 #Hold:684 #Stocks:181 PV:7,520 LC:932 Loss:2.905309 ET:13.0943
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 344/500] Epsilon:0.3126 #Expl.:414/1253 #Buy:267 #Sell:228 #Hold:758 #Stocks:166 PV:6,920 LC:1057 Loss:4.515152 ET:14.4153
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 345/500] Epsilon:0.3106 #Expl.:379/1253 #Buy:301 #Sell:254 #Hold:698 #Stocks:188 PV:8,019 LC:1000 Loss:2.864406 ET:13.8194
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 346/500] Epsilon:0.3086 #Expl.:354/1253 #Buy:247 #Sell:207 #Hold:799 #Stocks:170 PV:7,095 LC:1017 Loss:3.719961 ET:13.9034
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 347/500] Epsilon:0.3066 #Expl.:389/1253 #Buy:268 #Sell:224 #Hold:761 #Stocks:178 PV:7,418 LC:868 Loss:3.458021 ET:12.2726
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 348/500] Epsilon:0.3046 #Expl.:374/1253 #Buy:268 #Sell:226 #Hold:759 #Stocks:176 PV:7,316 LC:1043 Loss:3.478870 ET:14.3158
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 349/500] Epsilon:0.3026 #Expl.:381/1253 #Buy:265 #Sell:222 #Hold:766 #Stocks:182 PV:7,572 LC:1001 Loss:3.267678 ET:13.8134
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 350/500] Epsilon:0.3006 #Expl.:386/1253 #Buy:277 #Sell:230 #Hold:746 #Stocks:184 PV:7,656 LC:1003 Loss:3.155355 ET:14.2203
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 351/500] Epsilon:0.2986 #Expl.:373/1253 #Buy:251 #Sell:212 #Hold:790 #Stocks:174 PV:7,244 LC:868 Loss:3.318141 ET:12.3184
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 352/500] Epsilon:0.2966 #Expl.:382/1253 #Buy:299 #Sell:250 #Hold:704 #Stocks:190 PV:7,916 LC:1004 Loss:2.950401 ET:13.8793
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 353/500] Epsilon:0.2946 #Expl.:385/1253 #Buy:291 #Sell:242 #Hold:720 #Stocks:182 PV:7,564 LC:862 Loss:3.241912 ET:12.1808
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 354/500] Epsilon:0.2926 #Expl.:386/1253 #Buy:277 #Sell:233 #Hold:743 #Stocks:185 PV:7,713 LC:1016 Loss:3.175532 ET:13.9896
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 355/500] Epsilon:0.2906 #Expl.:369/1253 #Buy:281 #Sell:240 #Hold:732 #Stocks:183 PV:7,621 LC:1001 Loss:3.063225 ET:13.8347
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 356/500] Epsilon:0.2886 #Expl.:370/1253 #Buy:233 #Sell:193 #Hold:827 #Stocks:174 PV:7,253 LC:1049 Loss:3.800605 ET:14.4140
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 357/500] Epsilon:0.2866 #Expl.:342/1253 #Buy:284 #Sell:237 #Hold:732 #Stocks:194 PV:8,066 LC:839 Loss:2.832795 ET:11.9863
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 358/500] Epsilon:0.2846 #Expl.:382/1253 #Buy:311 #Sell:266 #Hold:676 #Stocks:189 PV:7,868 LC:1000 Loss:2.860925 ET:13.7610
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 359/500] Epsilon:0.2826 #Expl.:352/1253 #Buy:225 #Sell:182 #Hold:846 #Stocks:173 PV:7,188 LC:1057 Loss:3.466707 ET:14.3608
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 360/500] Epsilon:0.2806 #Expl.:339/1253 #Buy:296 #Sell:250 #Hold:707 #Stocks:197 PV:8,222 LC:1001 Loss:2.959375 ET:13.8959
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 361/500] Epsilon:0.2786 #Expl.:355/1253 #Buy:272 #Sell:229 #Hold:752 #Stocks:179 PV:7,438 LC:855 Loss:3.472057 ET:12.2362
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 362/500] Epsilon:0.2766 #Expl.:340/1253 #Buy:282 #Sell:238 #Hold:733 #Stocks:182 PV:7,575 LC:1044 Loss:3.561187 ET:14.4408
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 363/500] Epsilon:0.2745 #Expl.:352/1253 #Buy:283 #Sell:233 #Hold:737 #Stocks:196 PV:8,155 LC:864 Loss:2.940246 ET:12.3623
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 364/500] Epsilon:0.2725 #Expl.:338/1253 #Buy:239 #Sell:199 #Hold:815 #Stocks:172 PV:7,162 LC:1054 Loss:3.933112 ET:14.4322
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 365/500] Epsilon:0.2705 #Expl.:365/1253 #Buy:293 #Sell:250 #Hold:710 #Stocks:179 PV:7,461 LC:990 Loss:3.192199 ET:13.6541
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 366/500] Epsilon:0.2685 #Expl.:339/1253 #Buy:226 #Sell:186 #Hold:841 #Stocks:180 PV:7,510 LC:1016 Loss:2.979490 ET:13.9871
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 367/500] Epsilon:0.2665 #Expl.:348/1253 #Buy:240 #Sell:191 #Hold:822 #Stocks:171 PV:7,144 LC:1049 Loss:3.728363 ET:14.3755
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 368/500] Epsilon:0.2645 #Expl.:345/1253 #Buy:256 #Sell:214 #Hold:783 #Stocks:175 PV:7,280 LC:888 Loss:4.157593 ET:12.6044
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 369/500] Epsilon:0.2625 #Expl.:319/1253 #Buy:210 #Sell:168 #Hold:875 #Stocks:174 PV:7,228 LC:1057 Loss:3.861149 ET:14.4499
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 370/500] Epsilon:0.2605 #Expl.:329/1253 #Buy:282 #Sell:237 #Hold:734 #Stocks:194 PV:8,060 LC:866 Loss:2.984823 ET:12.3043
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 371/500] Epsilon:0.2585 #Expl.:338/1253 #Buy:238 #Sell:195 #Hold:820 #Stocks:180 PV:7,493 LC:935 Loss:2.920685 ET:13.1759
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 372/500] Epsilon:0.2565 #Expl.:326/1253 #Buy:239 #Sell:198 #Hold:816 #Stocks:174 PV:7,261 LC:1033 Loss:3.611036 ET:14.1439
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 373/500] Epsilon:0.2545 #Expl.:300/1253 #Buy:267 #Sell:219 #Hold:767 #Stocks:183 PV:7,604 LC:1001 Loss:3.078664 ET:13.8815
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 374/500] Epsilon:0.2525 #Expl.:319/1253 #Buy:261 #Sell:217 #Hold:775 #Stocks:180 PV:7,484 LC:1000 Loss:3.134331 ET:13.8075
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 375/500] Epsilon:0.2505 #Expl.:292/1253 #Buy:231 #Sell:188 #Hold:834 #Stocks:178 PV:7,400 LC:1051 Loss:3.819680 ET:14.4670
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 376/500] Epsilon:0.2485 #Expl.:283/1253 #Buy:275 #Sell:225 #Hold:753 #Stocks:189 PV:7,867 LC:860 Loss:2.845686 ET:12.3552
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 377/500] Epsilon:0.2465 #Expl.:293/1253 #Buy:251 #Sell:208 #Hold:794 #Stocks:170 PV:7,246 LC:988 Loss:3.682044 ET:13.7146
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 378/500] Epsilon:0.2445 #Expl.:330/1253 #Buy:215 #Sell:174 #Hold:864 #Stocks:177 PV:7,368 LC:1001 Loss:3.436050 ET:13.7356
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 379/500] Epsilon:0.2425 #Expl.:336/1253 #Buy:272 #Sell:228 #Hold:753 #Stocks:180 PV:7,487 LC:982 Loss:3.290369 ET:13.6038
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 380/500] Epsilon:0.2405 #Expl.:302/1253 #Buy:262 #Sell:217 #Hold:774 #Stocks:183 PV:7,627 LC:894 Loss:3.166494 ET:12.6012
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 381/500] Epsilon:0.2385 #Expl.:325/1253 #Buy:234 #Sell:189 #Hold:830 #Stocks:176 PV:7,313 LC:1001 Loss:3.584171 ET:13.9193
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 382/500] Epsilon:0.2365 #Expl.:304/1253 #Buy:215 #Sell:173 #Hold:865 #Stocks:173 PV:7,202 LC:1049 Loss:4.027091 ET:14.2538
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 383/500] Epsilon:0.2345 #Expl.:295/1253 #Buy:268 #Sell:221 #Hold:764 #Stocks:180 PV:7,503 LC:859 Loss:3.095502 ET:12.2524
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 384/500] Epsilon:0.2325 #Expl.:312/1253 #Buy:243 #Sell:198 #Hold:812 #Stocks:185 PV:7,705 LC:1002 Loss:3.001679 ET:13.7473
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 385/500] Epsilon:0.2305 #Expl.:294/1253 #Buy:250 #Sell:208 #Hold:795 #Stocks:182 PV:7,576 LC:1097 Loss:2.999336 ET:14.8715
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 386/500] Epsilon:0.2285 #Expl.:300/1253 #Buy:287 #Sell:242 #Hold:724 #Stocks:194 PV:8,302 LC:1001 Loss:2.978609 ET:13.7705
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 387/500] Epsilon:0.2265 #Expl.:292/1253 #Buy:263 #Sell:218 #Hold:772 #Stocks:180 PV:7,503 LC:856 Loss:3.115783 ET:12.2345
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 388/500] Epsilon:0.2244 #Expl.:290/1253 #Buy:231 #Sell:187 #Hold:835 #Stocks:186 PV:7,743 LC:1001 Loss:3.073994 ET:13.7044
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 389/500] Epsilon:0.2224 #Expl.:283/1253 #Buy:251 #Sell:204 #Hold:798 #Stocks:188 PV:7,834 LC:1001 Loss:3.153311 ET:13.8529
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 390/500] Epsilon:0.2204 #Expl.:281/1253 #Buy:231 #Sell:188 #Hold:834 #Stocks:187 PV:7,768 LC:864 Loss:2.871984 ET:12.3594
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 391/500] Epsilon:0.2184 #Expl.:274/1253 #Buy:219 #Sell:177 #Hold:857 #Stocks:173 PV:7,199 LC:973 Loss:3.761557 ET:13.5177
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 392/500] Epsilon:0.2164 #Expl.:289/1253 #Buy:207 #Sell:166 #Hold:880 #Stocks:177 PV:7,374 LC:1002 Loss:3.753243 ET:13.8109
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 393/500] Epsilon:0.2144 #Expl.:264/1253 #Buy:236 #Sell:190 #Hold:827 #Stocks:190 PV:7,894 LC:866 Loss:3.249257 ET:12.2927
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 394/500] Epsilon:0.2124 #Expl.:264/1253 #Buy:243 #Sell:200 #Hold:810 #Stocks:179 PV:7,450 LC:856 Loss:3.332187 ET:12.1729
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 395/500] Epsilon:0.2104 #Expl.:262/1253 #Buy:201 #Sell:158 #Hold:894 #Stocks:180 PV:7,477 LC:933 Loss:3.225906 ET:13.0675
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 396/500] Epsilon:0.2084 #Expl.:268/1253 #Buy:212 #Sell:173 #Hold:868 #Stocks:177 PV:7,356 LC:1049 Loss:3.722470 ET:14.2792
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 397/500] Epsilon:0.2064 #Expl.:264/1253 #Buy:216 #Sell:172 #Hold:865 #Stocks:178 PV:7,396 LC:868 Loss:3.579968 ET:12.4902
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 398/500] Epsilon:0.2044 #Expl.:254/1253 #Buy:229 #Sell:187 #Hold:837 #Stocks:180 PV:7,510 LC:1016 Loss:3.362519 ET:14.1310
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 399/500] Epsilon:0.2024 #Expl.:262/1253 #Buy:248 #Sell:203 #Hold:802 #Stocks:191 PV:7,959 LC:856 Loss:3.020517 ET:12.1469
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 400/500] Epsilon:0.2004 #Expl.:267/1253 #Buy:258 #Sell:215 #Hold:780 #Stocks:181 PV:7,532 LC:892 Loss:3.284630 ET:12.6280
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 401/500] Epsilon:0.1984 #Expl.:235/1253 #Buy:248 #Sell:206 #Hold:799 #Stocks:193 PV:8,054 LC:855 Loss:2.741400 ET:12.1809
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 402/500] Epsilon:0.1964 #Expl.:243/1253 #Buy:229 #Sell:188 #Hold:836 #Stocks:179 PV:7,467 LC:973 Loss:3.007168 ET:13.5313
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 403/500] Epsilon:0.1944 #Expl.:256/1253 #Buy:245 #Sell:204 #Hold:804 #Stocks:182 PV:7,564 LC:1001 Loss:3.130896 ET:13.7653
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 404/500] Epsilon:0.1924 #Expl.:246/1253 #Buy:253 #Sell:209 #Hold:791 #Stocks:186 PV:7,732 LC:844 Loss:2.938888 ET:12.1082
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 405/500] Epsilon:0.1904 #Expl.:246/1253 #Buy:223 #Sell:181 #Hold:849 #Stocks:182 PV:7,585 LC:867 Loss:3.050882 ET:12.3624
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 406/500] Epsilon:0.1884 #Expl.:245/1253 #Buy:257 #Sell:214 #Hold:782 #Stocks:190 PV:7,912 LC:1001 Loss:2.948086 ET:13.7791
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 407/500] Epsilon:0.1864 #Expl.:239/1253 #Buy:223 #Sell:177 #Hold:853 #Stocks:182 PV:7,597 LC:1001 Loss:3.299332 ET:13.7619
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 408/500] Epsilon:0.1844 #Expl.:243/1253 #Buy:240 #Sell:192 #Hold:821 #Stocks:180 PV:7,478 LC:1001 Loss:3.322909 ET:13.8460
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 409/500] Epsilon:0.1824 #Expl.:234/1253 #Buy:215 #Sell:172 #Hold:866 #Stocks:181 PV:7,550 LC:1001 Loss:3.250319 ET:13.8107
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 410/500] Epsilon:0.1804 #Expl.:214/1253 #Buy:239 #Sell:194 #Hold:820 #Stocks:186 PV:7,727 LC:861 Loss:3.122246 ET:12.3649
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 411/500] Epsilon:0.1784 #Expl.:202/1253 #Buy:218 #Sell:175 #Hold:860 #Stocks:177 PV:7,357 LC:869 Loss:3.273401 ET:12.3261
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 412/500] Epsilon:0.1764 #Expl.:224/1253 #Buy:219 #Sell:175 #Hold:859 #Stocks:177 PV:7,366 LC:1001 Loss:3.345740 ET:13.7968
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 413/500] Epsilon:0.1743 #Expl.:232/1253 #Buy:221 #Sell:180 #Hold:852 #Stocks:177 PV:7,572 LC:1002 Loss:3.187393 ET:13.7828
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 414/500] Epsilon:0.1723 #Expl.:214/1253 #Buy:211 #Sell:169 #Hold:873 #Stocks:173 PV:7,213 LC:866 Loss:3.631437 ET:12.2912
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 415/500] Epsilon:0.1703 #Expl.:217/1253 #Buy:185 #Sell:142 #Hold:926 #Stocks:182 PV:7,561 LC:867 Loss:3.130542 ET:12.3348
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 416/500] Epsilon:0.1683 #Expl.:213/1253 #Buy:220 #Sell:175 #Hold:858 #Stocks:183 PV:7,603 LC:853 Loss:2.918586 ET:12.2194
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 417/500] Epsilon:0.1663 #Expl.:197/1253 #Buy:210 #Sell:165 #Hold:878 #Stocks:191 PV:7,947 LC:1003 Loss:2.907763 ET:13.8087
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[HES][Epoch 418/500] Epsilon:0.1643 #Expl.:211/1253 #Buy:198 #Sell:157 #Hold:898 #Stocks:174 PV:7,230 LC:1049 Loss:3.670777 ET:14.4860
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
