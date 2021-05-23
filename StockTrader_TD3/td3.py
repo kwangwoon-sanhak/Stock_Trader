@@ -94,6 +94,7 @@ class ReinforcementLearner:
         self.learning_cnt = 0
         # 로그 등 출력 경로
         self.output_path = output_path
+        self.save_count = 0
 
     def init_policy_network(self, shared_network=None,
                             activation='sigmoid', loss='binary_crossentropy'):
@@ -274,9 +275,7 @@ class ReinforcementLearner:
         for epoch in range(num_epoches):
             time_start_epoch = time.time()
 
-            # step 샘플을 만들기 위한 큐
-        #    q_sample = collections.deque(maxlen=self.num_steps)
-          #  q_next_sample = collections.deque(maxlen=self.num_steps)
+
             # 환경, 에이전트, 신경망, 가시화, 메모리 초기화
             self.reset()
             # 학습을 진행할 수록 탐험 비율 감소
@@ -298,14 +297,6 @@ class ReinforcementLearner:
                     if next_sample is None:
                         break
 
-                # num_steps만큼 샘플 저장
-              #  q_sample.append(sample)
-               # q_next_sample.append(next_sample)
-               # if len(q_sample) < self.num_steps:
-                 #   continue
-
-               # if len(q_next_sample) < self.num_steps:
-                  #  continue
                   
                 # 가치, 정책 신경망 예측
                 pred_value = None
@@ -352,14 +343,10 @@ class ReinforcementLearner:
                 self.exploration_cnt += 1 if exploration else 0
 
                 # 지연 보상 발생된 경우 미니 배치 학습
-                if learning and self.replay_memory.count()> 10:
+                if learning and self.replay_memory.count() > 10:
                     self.fit(self.batch_size, delayed_reward ,discount_factor)
 
-            # 에포크 종료 후 학습
-           #if learning:
-            #    self.fit(
-             #       self.agent.profitloss, discount_factor, full=True)
-            # 에포크 관련 정보 로그 기록
+
             num_epoches_digit = len(str(num_epoches))
             epoch_str = str(epoch + 1).rjust(num_epoches_digit, '0')
             time_end_epoch = time.time()
@@ -385,6 +372,14 @@ class ReinforcementLearner:
             if self.agent.portfolio_value > self.agent.initial_balance:
                 epoch_win_cnt += 1
 
+            if epoch > num_epoches / 2 and self.agent.portfolio_value > self.agent.initial_balance:
+                if self.critic is not None and \
+                        self.value_network_path is not None:
+                    self.critic.save_model(self.value_network_path)
+                if self.actor is not None and \
+                        self.policy_network_path is not None:
+                    self.actor.save_model(self.policy_network_path)
+                self.count += 1
         # 종료 시간
         time_end = time.time()
         elapsed_time = time_end - time_start
@@ -397,20 +392,16 @@ class ReinforcementLearner:
                 max_pv=max_portfolio_value, cnt_win=epoch_win_cnt))
 
     def save_models(self):
-        if self.critic is not None and \
-                self.value_network_path is not None:
-            self.critic.save_model(self.value_network_path)
-        if self.actor is not None and \
-                self.policy_network_path is not None:
-            self.actor.save_model(self.policy_network_path)
-REPLAY_BUFFER_SIZE = 1000000
-REPLAY_START_SIZE = 10000
-BATCH_SIZE = 64
-GAMMA = 0.99
-
+        if self.count == 0 :
+            if self.critic is not None and \
+                    self.value_network_path is not None:
+                self.critic.save_model(self.value_network_path)
+            if self.actor is not None and \
+                    self.policy_network_path is not None:
+                self.actor.save_model(self.policy_network_path)
 
 class TD3(ReinforcementLearner):
-    """docstring for DDPG"""
+    """TD3"""
 
     def __init__(self, *args, shared_network=None,
                  value_network_path=None, policy_network_path=None, **kwargs):

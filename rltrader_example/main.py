@@ -24,7 +24,7 @@ if __name__ == '__main__':
     parser.add_argument('--balance', type=int, default=10000000)
     parser.add_argument('--num_epoches', type=int, default=100)
     parser.add_argument('--delayed_reward_threshold', 
-        type=float, default=0.05)
+        type=float, default=0.03)
     parser.add_argument('--backend', 
         choices=['tensorflow', 'plaidml'], default='tensorflow')
     parser.add_argument('--output_name', default=utils.get_time_str())
