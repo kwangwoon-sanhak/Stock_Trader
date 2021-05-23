@@ -451,7 +451,7 @@ class DDPG(ReinforcementLearner):
         # print(np.array(grads).shape)
         #  print(np.array(grads).reshape((-1, 1, self.agent.NUM_ACTIONS)).shape)
         # Train actor
-        self.actor.train(samples, np.array(grads).reshape((-1, self.num_steps, self.agent.NUM_ACTIONS)))
+        self.actor.train(samples, np.array(grads).reshape((-1, self.agent.NUM_ACTIONS)))
         # Transfer weights to target networks at rate Tau
         self.actor.transfer_weights()
         self.critic.transfer_weights()
