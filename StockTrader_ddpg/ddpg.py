@@ -92,40 +92,13 @@ class ReinforcementLearner:
         self.learning_cnt = 0
         # 로그 등 출력 경로
         self.output_path = output_path
-
+        self.save_count = 0
     def init_policy_network(self, shared_network=None,
                             activation='sigmoid', loss='binary_crossentropy'):
         if self.rl_method == 'ddpg':
             self.actor = ActorNetwork(
                 inp_dim=self.num_features,
                 out_dim=self.agent.NUM_ACTIONS, lr=self.lr, tau=self.tau, num_steps=self.num_steps)
-        elif self.net == 'dnn':
-            self.policy_network = DNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'lstm':
-            self.policy_network = LSTMNetwork(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'cnn':
-            self.policy_network = CNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'cnn':
-            self.policy_network = CNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
         if self.reuse_models and \
                 os.path.exists(self.policy_network_path):
             self.actor.load_model(
@@ -136,34 +109,6 @@ class ReinforcementLearner:
         if self.rl_method == 'ddpg':
             self.critic = CriticNetwork(
                 inp_dim=self.num_features, lr=self.lr, tau=self.tau)
-        elif self.net == 'dnn':
-            self.value_network = DNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'lstm':
-            self.value_network = LSTMNetwork(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'cnn':
-            self.value_network = CNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'cnn':
-            self.value_network = CNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
-
         if self.reuse_models and \
                 os.path.exists(self.value_network_path):
             self.critic.load_model(
@@ -327,10 +272,6 @@ class ReinforcementLearner:
         for epoch in range(num_epoches):
             time_start_epoch = time.time()
 
-            # step 샘플을 만들기 위한 큐
-            # q_sample = collections.deque(maxlen=self.num_steps)
-            # q_next_sample = collections.deque(maxlen=self.num_steps)
-            # zq_action= collections.deque(maxlen=self.num_steps)
             # 환경, 에이전트, 신경망, 가시화, 메모리 초기화
             self.reset()
             # 학습을 진행할 수록 탐험 비율 감소
@@ -352,20 +293,11 @@ class ReinforcementLearner:
                     if next_sample is None:
                         break
 
-                # num_steps만큼 샘플 저장
-                # q_sample.append(sample)
-                # q_next_sample.append(next_sample)
-                # if len(q_sample) < self.num_steps:
-                #   continue
-
-                # if len(q_next_sample) < self.num_steps:
-                # continue
 
                 # 가치, 정책 신경망 예측
                 pred_value = None
                 pred_policy = None
-                pred_target_policy = None
-                pred_target_value = None
+
                 if self.actor is not None:
                     pred_policy = self.actor.predict(sample)
 
@@ -434,6 +366,15 @@ class ReinforcementLearner:
             if self.agent.portfolio_value > self.agent.initial_balance:
                 epoch_win_cnt += 1
 
+            if epoch > num_epoches / 2 and self.agent.portfolio_value > self.agent.initial_balance:
+                if self.critic is not None and \
+                        self.value_network_path is not None:
+                    self.critic.save_model(self.value_network_path)
+                if self.actor is not None and \
+                        self.policy_network_path is not None:
+                    self.actor.save_model(self.policy_network_path)
+                self.count += 1
+
         # 종료 시간
         time_end = time.time()
         elapsed_time = time_end - time_start
@@ -446,12 +387,13 @@ class ReinforcementLearner:
                 max_pv=max_portfolio_value, cnt_win=epoch_win_cnt))
 
     def save_models(self):
-        if self.critic is not None and \
-                self.value_network_path is not None:
-            self.critic.save_model(self.value_network_path)
-        if self.actor is not None and \
-                self.policy_network_path is not None:
-            self.actor.save_model(self.policy_network_path)
+        if self.count == 0 :
+            if self.critic is not None and \
+                    self.value_network_path is not None:
+                self.critic.save_model(self.value_network_path)
+            if self.actor is not None and \
+                    self.policy_network_path is not None:
+                self.actor.save_model(self.policy_network_path)
 
 
 REPLAY_BUFFER_SIZE = 1000000

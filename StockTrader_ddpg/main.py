@@ -13,11 +13,11 @@ if __name__ == '__main__':
     parser.add_argument('--stock_code', nargs='+')
     parser.add_argument('--ver', choices=['v1', 'v2','v3'], default='v3')
     parser.add_argument('--rl_method',
-        choices=['dqn', 'pg', 'ac', 'a2c', 'a3c', 'ddpg'])
+        choices=['dqn', 'pg', 'ac', 'a2c', 'a3c', 'ddpg'], default='ddpg')
     parser.add_argument('--net',
         choices=['dnn', 'lstm', 'cnn','actorcritic'], default='actorcritic')
     parser.add_argument('--num_steps', type=int, default=1)
-    parser.add_argument('--lr', type=float, default=0.01)
+    parser.add_argument('--lr', type=float, default=0.0001)
     parser.add_argument('--discount_factor', type=float, default=0.9)
     parser.add_argument('--start_epsilon', type=float, default=1)
     parser.add_argument('--balance', type=int, default=10000)
@@ -31,8 +31,8 @@ if __name__ == '__main__':
     parser.add_argument('--policy_network_name')
     parser.add_argument('--reuse_models', action='store_true')
     parser.add_argument('--learning', action='store_true')
-    parser.add_argument('--start_date', default='20140101')
-    parser.add_argument('--end_date', default='20181230')
+    parser.add_argument('--start_date', default='20170101')
+    parser.add_argument('--end_date', default='20191230')
     args = parser.parse_args()
 
     # Keras Backend 설정
@@ -62,8 +62,6 @@ if __name__ == '__main__':
 
     # 로그, Keras Backend 설정을 먼저하고 RLTrader 모듈들을 이후에 임포트해야 함
     from agent import Agent
-    from learners import DQNLearner, PolicyGradientLearner, \
-        ActorCriticLearner, A2CLearner, A3CLearner
     from ddpg import DDPG
     # 모델 경로 준비
     value_network_path = ''
@@ -98,8 +96,8 @@ if __name__ == '__main__':
             args.start_date, args.end_date, ver=args.ver)
 
         # 최소/최대 투자 단위 설정
-        min_trading_unit = 1
-        max_trading_unit =10
+        min_trading_unit = max(int(100 / chart_data.iloc[-1]['close']), 1)
+        max_trading_unit = max(int(1000 / chart_data.iloc[-1]['close']), 1)
 
         # 공통 파라미터 설정
         common_params = {'rl_method': args.rl_method,
@@ -109,55 +107,17 @@ if __name__ == '__main__':
 
         # 강화학습 시작
         learner = None
-        if args.rl_method != 'a3c':
-            common_params.update({'stock_code': stock_code,
-                'chart_data': chart_data,
-                'training_data': training_data,
-                'min_trading_unit': min_trading_unit,
-                'max_trading_unit': max_trading_unit})
-            if args.rl_method == 'dqn':
-                learner = DQNLearner(**{**common_params,
-                'value_network_path': value_network_path})
-            elif args.rl_method == 'pg':
-                learner = PolicyGradientLearner(**{**common_params,
-                'policy_network_path': policy_network_path})
-            elif args.rl_method == 'ac':
-                learner = ActorCriticLearner(**{**common_params,
-                    'value_network_path': value_network_path,
-                    'policy_network_path': policy_network_path})
-            elif args.rl_method == 'a2c':
-                learner = A2CLearner(**{**common_params,
-                    'value_network_path': value_network_path,
-                    'policy_network_path': policy_network_path})
-            elif args.rl_method=='ddpg':
-                learner = DDPG(**{**common_params,'value_network_path': value_network_path,'policy_network_path': policy_network_path})
-            if learner is not None:
-                learner.run(balance=args.balance,
-                    num_epoches=args.num_epoches,
-                    discount_factor=args.discount_factor,
-                    start_epsilon=args.start_epsilon,
-                    learning=args.learning)
-                learner.save_models()
-        else:
-            list_stock_code.append(stock_code)
-            list_chart_data.append(chart_data)
-            list_training_data.append(training_data)
-            list_min_trading_unit.append(min_trading_unit)
-            list_max_trading_unit.append(max_trading_unit)
-
-    if args.rl_method == 'a3c':
-        learner = A3CLearner(**{
-            **common_params,
-            'list_stock_code': list_stock_code,
-            'list_chart_data': list_chart_data,
-            'list_training_data': list_training_data,
-            'list_min_trading_unit': list_min_trading_unit,
-            'list_max_trading_unit': list_max_trading_unit,
-            'value_network_path': value_network_path,
-            'policy_network_path': policy_network_path})
-
-        learner.run(balance=args.balance, num_epoches=args.num_epoches,
-                    discount_factor=args.discount_factor,
-                    start_epsilon=args.start_epsilon,
-                    learning=args.learning)
-        learner.save_models()
+        common_params.update({'stock_code': stock_code,
+            'chart_data': chart_data,
+            'training_data': training_data,
+            'min_trading_unit': min_trading_unit,
+            'max_trading_unit': max_trading_unit})
+        if args.rl_method == 'ddpg':
+            learner = DDPG(**{**common_params,'value_network_path': value_network_path,'policy_network_path': policy_network_path})
+        if learner is not None:
+            learner.run(balance=args.balance,
+                num_epoches=args.num_epoches,
+                discount_factor=args.discount_factor,
+                start_epsilon=args.start_epsilon,
+                learning=args.learning)
+            learner.save_models()
