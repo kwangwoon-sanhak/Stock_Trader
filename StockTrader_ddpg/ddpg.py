@@ -91,6 +91,7 @@ class ReinforcementLearner:
         self.batch_size = 0
         self.learning_cnt = 0
         # 로그 등 출력 경로
+        self.pre_pv = 0
         self.output_path = output_path
         self.save_count = 0
     def init_policy_network(self, shared_network=None,
@@ -366,7 +367,7 @@ class ReinforcementLearner:
             if self.agent.portfolio_value > self.agent.initial_balance:
                 epoch_win_cnt += 1
 
-            if epoch > num_epoches / 2 and self.agent.portfolio_value > self.agent.initial_balance:
+            if epoch > num_epoches / 2 and self.agent.portfolio_value > self.pre_pv and self.agent.portfolio_value > self.agent.initial_balance:
                 if self.critic is not None and \
                         self.value_network_path is not None:
                     self.critic.save_model(self.value_network_path)
@@ -374,6 +375,7 @@ class ReinforcementLearner:
                         self.policy_network_path is not None:
                     self.actor.save_model(self.policy_network_path)
                 self.count += 1
+            self.pre_pv = self.agent.portfolio_value
 
         # 종료 시간
         time_end = time.time()
