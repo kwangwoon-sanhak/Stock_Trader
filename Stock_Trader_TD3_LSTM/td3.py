@@ -394,9 +394,16 @@ class ReinforcementLearner:
                 if self.actor is not None and \
                         self.policy_network_path is not None:
                     self.actor.save_model(self.policy_network_path)
-                self.count += 1
-            self.pre_pv = self.agent.portfolio_value
+                self.save_count += 1
+                self.pre_pv = self.agent.portfolio_value
 
+            if epoch % 100 == 0 and self.save_count == 0:
+                if self.critic is not None and \
+                        self.value_network_path is not None:
+                    self.critic.save_model(self.value_network_path)
+                if self.actor is not None and \
+                        self.policy_network_path is not None:
+                    self.actor.save_model(self.policy_network_path)
         # 종료 시간
         time_end = time.time()
         elapsed_time = time_end - time_start
@@ -409,7 +416,7 @@ class ReinforcementLearner:
                 max_pv=max_portfolio_value, cnt_win=epoch_win_cnt))
 
     def save_models(self):
-        if self.count == 0 :
+        if self.save_count == 0 :
             if self.critic is not None and \
                     self.value_network_path is not None:
                 self.critic.save_model(self.value_network_path)
