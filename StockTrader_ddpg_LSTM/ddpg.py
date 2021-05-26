@@ -418,11 +418,6 @@ class ReinforcementLearner:
                 self.actor.save_model(self.policy_network_path)
 
 
-REPLAY_BUFFER_SIZE = 1000000
-REPLAY_START_SIZE = 10000
-BATCH_SIZE = 64
-GAMMA = 0.99
-
 
 class DDPG(ReinforcementLearner):
     """docstring for DDPG"""
