@@ -11,17 +11,17 @@ import data_manager
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--stock_code', nargs='+')
-    parser.add_argument('--ver', choices=['v1', 'v2','v3'], default='v3')
+    parser.add_argument('--ver', choices=['v1', 'v2', 'v3'], default='v3')
     parser.add_argument('--rl_method',
         choices=['dqn', 'pg', 'ac', 'a2c', 'a3c', 'ddpg'], default = 'ddpg')
     parser.add_argument('--net',
         choices=['dnn', 'lstm', 'cnn','actorcritic'], default='actorcritic')
     parser.add_argument('--num_steps', type=int, default=5)
-    parser.add_argument('--lr', type=float, default=0.01)
-    parser.add_argument('--discount_factor', type=float, default=0.9)
+    parser.add_argument('--lr', type=float, default=0.00001)
+    parser.add_argument('--discount_factor', type=float, default=0.99)
     parser.add_argument('--start_epsilon', type=float, default=1)
     parser.add_argument('--balance', type=int, default=10000)
-    parser.add_argument('--num_epoches', type=int, default=100)
+    parser.add_argument('--num_epoches', type=int, default=1000)
     parser.add_argument('--delayed_reward_threshold',
         type=float, default=0.05)
     parser.add_argument('--backend',
@@ -30,8 +30,8 @@ if __name__ == '__main__':
     parser.add_argument('--value_network_name')
     parser.add_argument('--policy_network_name')
     parser.add_argument('--reuse_models', action='store_true')
-    parser.add_argument('--learning', action='store_true')
-    parser.add_argument('--start_date', default='20170101')
+    parser.add_argument('--learning', action='store_true', default =True)
+    parser.add_argument('--start_date', default='20150101')
     parser.add_argument('--end_date', default='20191230')
     args = parser.parse_args()
 
@@ -99,7 +99,7 @@ if __name__ == '__main__':
 
         # 최소/최대 투자 단위 설정
         min_trading_unit = 1
-        max_trading_unit =10
+        max_trading_unit = 10
 
         # 공통 파라미터 설정
         common_params = {'rl_method': args.rl_method,
