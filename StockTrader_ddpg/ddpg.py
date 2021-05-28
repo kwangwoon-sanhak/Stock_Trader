@@ -346,7 +346,7 @@ class ReinforcementLearner:
             epoch_str = str(epoch + 1).rjust(num_epoches_digit, '0')
             time_end_epoch = time.time()
             elapsed_time_epoch = time_end_epoch - time_start_epoch
-            if self.learning_cnt >= 0:
+            if self.learning_cnt >0:
                 logging.info("[{}][Epoch {}/{}] Epsilon:{:.4f} "
                              "#Expl.:{}/{} #Buy:{} #Sell:{} #Hold:{} "
                              "#Stocks:{} PV:{:,.0f} "
@@ -357,6 +357,13 @@ class ReinforcementLearner:
                     self.agent.num_hold, self.agent.num_stocks,
                     self.agent.portfolio_value, self.learning_cnt,
                     self.loss, elapsed_time_epoch))
+                if epoch % 100 == 0 and self.save_count == 0:
+                    if self.critic is not None and \
+                            self.value_network_path is not None:
+                        self.critic.save_model(self.value_network_path)
+                    if self.actor is not None and \
+                            self.policy_network_path is not None:
+                        self.actor.save_model(self.policy_network_path)
 
             # 에포크 관련 정보 가시화
             self.visualize(epoch_str, num_epoches, epsilon)
@@ -367,13 +374,7 @@ class ReinforcementLearner:
             if self.agent.portfolio_value > self.agent.initial_balance:
                 epoch_win_cnt += 1
 
-            if epoch % 100 == 0 and self.save_count == 0:
-                if self.critic is not None and \
-                        self.value_network_path is not None:
-                    self.critic.save_model(self.value_network_path)
-                if self.actor is not None and \
-                        self.policy_network_path is not None:
-                    self.actor.save_model(self.policy_network_path)
+
 
         # 종료 시간
         time_end = time.time()
@@ -387,7 +388,7 @@ class ReinforcementLearner:
                 max_pv=max_portfolio_value, cnt_win=epoch_win_cnt))
 
     def save_models(self):
-        if self.save_count == 0 :
+        if self.learning_cnt >0:
             if self.critic is not None and \
                     self.value_network_path is not None:
                 self.critic.save_model(self.value_network_path)
