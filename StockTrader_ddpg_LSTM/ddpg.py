@@ -373,10 +373,10 @@ class ReinforcementLearner:
                 if epoch % 100 == 0:
                     if self.critic is not None and \
                             self.value_network_path is not None:
-                        self.critic.save_model(self.value_network_path)
+                        self.critic.save_model(self.value_network_path[:-3]+"_"+str(epoch)+".h5")
                     if self.actor is not None and \
                             self.policy_network_path is not None:
-                        self.actor.save_model(self.policy_network_path)
+                        self.actor.save_model(self.policy_network_path[:-3]+"_"+str(epoch)+".h5")
 
             # 에포크 관련 정보 가시화
             self.visualize(epoch_str, num_epoches, epsilon)
