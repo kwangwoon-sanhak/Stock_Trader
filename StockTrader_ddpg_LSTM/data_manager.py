@@ -137,7 +137,58 @@ COLUMNS_TRAINING_DATA_V3 = [
     "nlp_compound",
 ]
 
+COLUMNS_TRAINING_DATA_V4 = [
+    "per",
+    "pbr",
+    "open_lastclose_ratio",
+    "high_close_ratio",
+    "low_close_ratio",
+    "close_lastclose_ratio",
+    "volume_lastvolume_ratio",
+    "close_ma5_ratio",
+    "volume_ma5_ratio",
+    "close_ma10_ratio",
+    "volume_ma10_ratio",
+    "close_ma20_ratio",
+    "volume_ma20_ratio",
+    "close_ma60_ratio",
+    "volume_ma60_ratio",
+    "close_ma120_ratio",
+    "volume_ma120_ratio",
+    "market_sma5",
+    "market_sma20",
+    "market_sma60",
+    "market_sma20",
+    "bond_u3y_sma5",
+    "bond_u3y_sma20",
+    "bond_u3y_sma60",
+    "bond_u3y_sma120",
+    "wti_sma5",
+    "wti_sma20",
+    "wti_sma60",
+    "wti_sma120",
+    "aroon_5",
+    "adx_5",
+    "elder_ray_bull_5",
+    "elder_ray_bear_5",
+    "vortex_pos_5",
+    "vortex_neg_5",
+    "donchian_5",
+    "fcb_upper_5",
+    "fcb_lower_5",
+    "gator_upper",
+    "gator_lower",
+    "alligator_jaw",
+    "alligator_teeth",
+    "alligator_lips",
+    "ichimoku_9_26_52",
+    "macd_12_26_9",
+    "super_trend_14_3",
+    "bollinger_bands_upper_20_2",
+    "bollinger_bands_lower_20_2",
+    "std_dev_channels_20_2",
 
+]
 def preprocess(data, ver="v3"):
     windows = [5, 10, 20, 60, 120]
     for window in windows:  # 이동 평균 전처리
@@ -241,6 +292,10 @@ def load_data(fpath, date_from, date_to, ver="v3"):  # csv file 경로, 시작 �
     elif ver == "v3":
         data.loc[:, ["per", "pbr"]] = data[["per", "pbr"]].apply(lambda x: x / 100)
         training_data = data[COLUMNS_TRAINING_DATA_V3]
+        training_data = training_data.apply(np.tanh)
+    elif ver == "v4":
+        data.loc[:, ["per", "pbr"]] = data[["per", "pbr"]].apply(lambda x: x / 100)
+        training_data = data[COLUMNS_TRAINING_DATA_V4]
         training_data = training_data.apply(np.tanh)
     else:
         raise Exception("Invalid version.")
