@@ -1,0 +1,430 @@
+(private) matplotlib data path: /home/yjs1916211/.local/lib/python3.6/site-packages/matplotlib/mpl-data
+matplotlib data path: /home/yjs1916211/.local/lib/python3.6/site-packages/matplotlib/mpl-data
+CONFIGDIR=/home/yjs1916211/.config/matplotlib
+matplotlib version 3.3.4
+interactive is False
+platform is linux
+loaded modules: ['builtins', 'sys', '_frozen_importlib', '_imp', '_warnings', '_thread', '_weakref', '_frozen_importlib_external', '_io', 'marshal', 'posix', 'zipimport', 'encodings', 'codecs', '_codecs', 'encodings.aliases', 'encodings.utf_8', '_signal', '__main__', 'encodings.latin_1', 'io', 'abc', '_weakrefset', 'site', 'os', 'errno', 'stat', '_stat', 'posixpath', 'genericpath', 'os.path', '_collections_abc', '_sitebuiltins', 'sysconfig', '_sysconfigdata_m_linux_x86_64-linux-gnu', '_bootlocale', '_locale', 'types', 'functools', '_functools', 'collections', 'operator', '_operator', 'keyword', 'heapq', '_heapq', 'itertools', 'reprlib', '_collections', 'weakref', 'collections.abc', 'importlib', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib.util', 'importlib.abc', 'importlib.machinery', 'contextlib', 'mpl_toolkits', 'google', 'zope', 'sitecustomize', 'apport_python_hook', 'logging', 'time', 'traceback', 'linecache', 'tokenize', 're', 'enum', 'sre_compile', '_sre', 'sre_parse', 'sre_constants', 'copyreg', 'token', 'string', '_string', 'threading', 'atexit', 'argparse', 'copy', 'textwrap', 'gettext', 'locale', 'struct', '_struct', 'json', 'json.decoder', 'json.scanner', '_json', 'json.encoder', 'settings', 'platform', 'subprocess', 'signal', '_posixsubprocess', 'select', 'selectors', 'math', 'utils', 'datetime', '_datetime', 'numpy', 'numpy._globals', 'numpy.__config__', 'numpy.version', 'numpy._distributor_init', 'numpy.core', 'numpy.core.multiarray', 'numpy.core.overrides', 'numpy.core._multiarray_umath', 'numpy.compat', 'numpy.compat._inspect', 'numpy.compat.py3k', 'pathlib', 'fnmatch', 'ntpath', 'urllib', 'urllib.parse', 'pickle', '_compat_pickle', '_pickle', 'numpy.core.umath', 'numpy.core.numerictypes', 'numbers', 'numpy.core._string_helpers', 'numpy.core._type_aliases', 'numpy.core._dtype', 'numpy.core.numeric', 'numpy.core.shape_base', 'numpy.core._asarray', 'numpy.core.fromnumeric', 'numpy.core._methods', 'numpy.core._exceptions', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core.machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._add_newdocs', 'numpy.core._multiarray_tests', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'ast', '_ast', 'ctypes', '_ctypes', 'ctypes._endian', 'numpy._pytesttester', 'numpy.lib', 'numpy.lib.mixins', 'numpy.lib.scimath', 'numpy.lib.type_check', 'numpy.lib.ufunclike', 'numpy.lib.index_tricks', 'numpy.matrixlib', 'numpy.matrixlib.defmatrix', 'numpy.linalg', 'numpy.linalg.linalg', 'numpy.lib.twodim_base', 'numpy.linalg.lapack_lite', 'numpy.linalg._umath_linalg', 'numpy.lib.function_base', 'numpy.lib.histograms', 'numpy.lib.stride_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.npyio', 'numpy.lib.format', 'numpy.lib._datasource', 'shutil', 'zlib', 'bz2', '_compression', '_bz2', 'lzma', '_lzma', 'pwd', 'grp', 'numpy.lib._iotools', 'numpy.lib.financial', 'decimal', '_decimal', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.fft', 'numpy.fft._pocketfft', 'numpy.fft._pocketfft_internal', 'numpy.fft.helper', 'numpy.polynomial', 'numpy.polynomial.polynomial', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.random', 'numpy.random._pickle', 'numpy.random.mtrand', 'cython_runtime', 'numpy.random.bit_generator', '_cython_0_29_21', 'numpy.random._common', 'secrets', 'base64', 'binascii', 'hmac', 'hashlib', '_hashlib', '_blake2', '_sha3', 'random', 'bisect', '_bisect', '_random', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.ctypeslib', 'numpy.ma', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.testing', 'unittest', 'unittest.result', 'unittest.util', 'unittest.case', 'difflib', 'pprint', 'unittest.suite', 'unittest.loader', 'unittest.main', 'unittest.runner', 'unittest.signals', 'numpy.testing._private', 'numpy.testing._private.utils', 'gc', 'tempfile', 'numpy.testing._private.decorators', 'numpy.testing._private.nosetester', 'data_manager', 'pandas', 'pytz', 'pytz.exceptions', 'pytz.lazy', 'pytz.tzinfo', 'pytz.tzfile', 'dateutil', 'dateutil._version', 'pandas.compat', 'pandas._typing', 'typing', 'typing.io', 'typing.re', 'pandas.compat.numpy', 'distutils', 'distutils.version', 'pandas._libs', 'pandas._libs.interval', 'pandas._libs.hashtable', 'pandas._libs.missing', 'pandas._libs.tslibs', 'pandas._libs.tslibs.dtypes', 'pandas._libs.tslibs.conversion', 'pandas._libs.tslibs.base', 'pandas._libs.tslibs.nattype', 'pandas._libs.tslibs.np_datetime', 'pandas._libs.tslibs.timezones', 'dateutil.tz', 'dateutil.tz.tz', 'six', '__future__', 'six.moves', 'dateutil.tz._common', 'dateutil.tz._factories', 'pandas._libs.tslibs.tzconversion', 'pandas._libs.tslibs.ccalendar', 'pandas._libs.tslibs.parsing', 'pandas._libs.tslibs.offsets', 'pandas._libs.tslibs.timedeltas', 'pandas._libs.tslibs.timestamps', 'pandas._libs.tslibs.fields', 'pandas._config', 'pandas._config.config', 'pandas._config.dates', 'pandas._config.display', 'pandas._config.localization', 'pandas._libs.tslibs.strptime', 'calendar', 'dateutil.easter', 'dateutil.relativedelta', 'dateutil._common', 'pandas._libs.properties', 'dateutil.parser', 'dateutil.parser._parser', 'dateutil.parser.isoparser', 'pandas._libs.tslibs.period', 'pandas._libs.tslibs.vectorized', 'pandas._libs.ops_dispatch', 'pandas._libs.algos', 'pandas._libs.lib', 'pandas._libs.tslib', 'pandas.core', 'pandas.core.config_init', 'pandas.core.api', 'pandas.core.dtypes', 'pandas.core.dtypes.dtypes', 'pandas.core.dtypes.base', 'pandas.errors', 'pandas.core.dtypes.generic', 'pandas.core.dtypes.inference', 'pandas.core.dtypes.missing', 'pandas.core.dtypes.common', 'pandas.core.algorithms', 'pandas.util', 'pandas.util._decorators', 'inspect', 'dis', 'opcode', '_opcode', 'pandas.core.util', 'pandas.core.util.hashing', 'pandas._libs.hashing', 'pandas.core.dtypes.cast', 'pandas.util._validators', 'pandas.core.construction', 'pandas.core.common', 'pandas.core.indexers', 'pandas.core.arrays', 'pandas.core.arrays.base', 'pandas.compat.numpy.function', 'pandas.core.ops', 'pandas.core.ops.array_ops', 'pandas._libs.ops', 'pandas.core.ops.missing', 'pandas.core.ops.roperator', 'pandas.core.ops.dispatch', 'pandas.core.ops.invalid', 'pandas.core.ops.common', 'pandas.core.ops.docstrings', 'pandas.core.ops.mask_ops', 'pandas.core.ops.methods', 'pandas.core.missing', 'pandas.compat._optional', 'pandas.core.sorting', 'pandas.core.arrays.boolean', 'pandas.core.arrays.masked', 'pandas.core.nanops', 'pandas.core.array_algos', 'pandas.core.array_algos.masked_reductions', 'pandas.core.arrays.categorical', 'csv', '_csv', 'pandas.core.accessor', 'pandas.core.array_algos.transforms', 'pandas.core.arrays._mixins', 'pandas.core.base', 'pandas.io', 'pandas.io.formats', 'pandas.io.formats.console', 'pandas.core.arrays.datetimes', 'pandas.core.arrays.datetimelike', 'pandas.tseries', 'pandas.tseries.frequencies', 'pandas.core.arrays._ranges', 'pandas.tseries.offsets', 'pandas.core.arrays.integer', 'pandas.core.tools', 'pandas.core.tools.numeric', 'pandas.core.arrays.interval', 'pandas.core.indexes', 'pandas.core.indexes.base', 'pandas._libs.index', 'pandas._libs.join', 'pandas.core.dtypes.concat', 'pandas.core.arrays.sparse', 'pandas.core.arrays.sparse.accessor', 'pandas.core.arrays.sparse.array', 'pandas._libs.sparse', 'pandas.core.arrays.sparse.dtype', 'pandas.io.formats.printing', 'pandas.core.indexes.frozen', 'pandas.core.strings', 'pandas.core.arrays.numpy_', 'pandas.core.arrays.period', 'pandas.core.arrays.string_', 'pandas.core.arrays.timedeltas', 'pandas.core.groupby', 'pandas.core.groupby.generic', 'pandas.core.aggregation', 'pandas.core.indexes.api', 'pandas.core.indexes.category', 'pandas.core.indexes.extension', 'pandas.core.indexes.datetimes', 'pandas.core.indexes.datetimelike', 'pandas.core.indexes.numeric', 'pandas.core.tools.timedeltas', 'pandas.core.tools.times', 'pandas.core.indexes.interval', 'pandas.util._exceptions', 'pandas.core.indexes.multi', 'pandas.core.indexes.timedeltas', 'pandas.core.indexes.period', 'pandas.core.indexes.range', 'pandas.core.series', 'pandas._libs.reshape', 'pandas.core.generic', 'pandas.core.indexing', 'pandas._libs.indexing', 'pandas.core.internals', 'pandas.core.internals.blocks', 'pandas._libs.writers', 'pandas._libs.internals', 'pandas.core.internals.concat', 'pandas.core.internals.managers', 'pandas.core.internals.ops', 'pandas.core.shared_docs', 'pandas.io.formats.format', 'unicodedata', 'pandas.io.common', 'gzip', 'mmap', 'zipfile', 'pandas.core.indexes.accessors', 'pandas.core.tools.datetimes', 'pandas.arrays', 'pandas.plotting', 'pandas.plotting._core', 'pandas.plotting._misc', 'pandas.core.window', 'pandas.core.window.ewm', 'pandas._libs.window', 'pandas._libs.window.aggregations', 'pandas.core.window.common', 'pandas.core.groupby.base', 'pandas.core.window.rolling', 'pandas.core.util.numba_', 'pandas.core.window.indexers', 'pandas._libs.window.indexers', 'pandas.core.window.numba_', 'pandas.core.window.expanding', 'pandas.core.frame', 'pandas.core.internals.construction', 'pandas.core.reshape', 'pandas.core.reshape.melt', 'pandas.core.reshape.concat', 'pandas.core.reshape.util', 'pandas.io.formats.info', 'pandas.core.groupby.groupby', 'pandas._libs.groupby', 'pandas.core.groupby.ops', 'pandas._libs.reduction', 'pandas.core.groupby.grouper', 'pandas.core.groupby.categorical', 'pandas.tseries.api', 'pandas.core.computation', 'pandas.core.computation.api', 'pandas.core.computation.eval', 'pandas.core.computation.engines', 'pandas.core.computation.align', 'pandas.core.computation.common', 'pandas.core.computation.ops', 'pandas.core.computation.scope', 'pandas.compat.chainmap', 'pandas.core.computation.expr', 'pandas.core.computation.parsing', 'pandas.core.reshape.api', 'pandas.core.reshape.merge', 'pandas.core.reshape.pivot', 'pandas.core.reshape.reshape', 'pandas.core.reshape.tile', 'pandas.api', 'pandas.api.extensions', 'pandas.api.indexers', 'pandas.api.types', 'pandas.core.dtypes.api', 'pandas.util._print_versions', 'pandas.io.api', 'pandas.io.clipboards', 'pandas.io.excel', 'pandas.io.excel._base', 'pandas._libs.parsers', 'pandas.io.excel._util', 'pandas.io.parsers', 'pandas.io.date_converters', 'pandas.io.excel._odfreader', 'pandas.io.excel._openpyxl', 'pandas.io.excel._pyxlsb', 'pandas.io.excel._xlrd', 'pandas.io.excel._odswriter', 'pandas._libs.json', 'pandas.io.formats.excel', 'pandas.io.formats.css', 'pandas.io.excel._xlsxwriter', 'pandas.io.excel._xlwt', 'pandas.io.feather_format', 'pandas.io.gbq', 'pandas.io.html', 'pandas.io.json', 'pandas.io.json._json', 'pandas.io.json._normalize', 'pandas.io.json._table_schema', 'pandas.io.orc', 'pandas.io.parquet', 'pandas.io.pickle', 'pandas.compat.pickle_compat', 'pandas.io.pytables', 'pandas.core.computation.pytables', 'pandas.io.sas', 'pandas.io.sas.sasreader', 'pandas.io.spss', 'pandas.io.sql', 'pandas.io.stata', 'pandas.util._tester', 'pandas.testing', 'pandas._testing', 'pandas._libs.testing', 'pandas._version', 'agent', 'learners', 'environment', 'visualizer', 'matplotlib', 'matplotlib.cbook', 'shlex', 'matplotlib.cbook.deprecation', 'matplotlib.rcsetup', 'matplotlib.animation', 'uuid', 'ctypes.util', 'matplotlib._animation_data', 'matplotlib.fontconfig_pattern', 'pyparsing', 'matplotlib.colors', 'matplotlib.docstring', 'matplotlib._color_data', 'cycler', 'matplotlib._version', 'matplotlib.ft2font', 'kiwisolver']
+CACHEDIR=/home/yjs1916211/.cache/matplotlib
+Using fontManager instance from /home/yjs1916211/.cache/matplotlib/fontlist-v330.json
+Loaded backend agg version unknown.
+Loaded backend agg version unknown.
+Loaded backend agg version unknown.
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4115: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/yjs1916211/Stock_Trader/StockTrader_ddpg_LSTM/actor.py:184: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+[XOM] RL:ddpg Net:actorcritic LR:0.0001 DF:0.99 TU:[1,10] DRT:0.05
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:2741: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:181: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:190: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:199: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:206: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+From /home/yjs1916211/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+[XOM][Epoch 001/100] Epsilon:1.0000 #Expl.:1231/1231 #Buy:208 #Sell:178 #Hold:845 #Stocks:111 PV:7,732 LC:1147 Loss:3.800925 ET:49.2409
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/yjs1916211/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+top of axes not in the figure, so title not moved
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/yjs1916211/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+top of axes not in the figure, so title not moved
+[XOM][Epoch 002/100] Epsilon:0.9899 #Expl.:1208/1231 #Buy:142 #Sell:117 #Hold:972 #Stocks:108 PV:7,540 LC:1159 Loss:4.186868 ET:41.9638
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 003/100] Epsilon:0.9798 #Expl.:1201/1231 #Buy:316 #Sell:289 #Hold:626 #Stocks:105 PV:7,299 LC:1161 Loss:4.465504 ET:41.6525
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 004/100] Epsilon:0.9697 #Expl.:1184/1231 #Buy:61 #Sell:39 #Hold:1131 #Stocks:110 PV:7,680 LC:1160 Loss:4.325000 ET:41.6365
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 005/100] Epsilon:0.9596 #Expl.:1190/1231 #Buy:111 #Sell:89 #Hold:1031 #Stocks:104 PV:7,580 LC:1161 Loss:4.716227 ET:41.9468
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 006/100] Epsilon:0.9495 #Expl.:1149/1231 #Buy:405 #Sell:375 #Hold:451 #Stocks:108 PV:7,566 LC:1149 Loss:4.433853 ET:41.4102
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 007/100] Epsilon:0.9394 #Expl.:1152/1231 #Buy:318 #Sell:293 #Hold:620 #Stocks:105 PV:7,358 LC:1160 Loss:5.123501 ET:41.7264
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 008/100] Epsilon:0.9293 #Expl.:1142/1231 #Buy:441 #Sell:411 #Hold:379 #Stocks:106 PV:7,766 LC:1156 Loss:4.488663 ET:41.5478
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 009/100] Epsilon:0.9192 #Expl.:1141/1231 #Buy:434 #Sell:403 #Hold:394 #Stocks:99 PV:7,576 LC:1134 Loss:4.749253 ET:41.0391
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 010/100] Epsilon:0.9091 #Expl.:1113/1231 #Buy:111 #Sell:81 #Hold:1039 #Stocks:109 PV:7,577 LC:1161 Loss:5.397586 ET:41.5050
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 011/100] Epsilon:0.8990 #Expl.:1104/1231 #Buy:400 #Sell:368 #Hold:463 #Stocks:106 PV:7,765 LC:1159 Loss:5.240234 ET:41.5467
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 012/100] Epsilon:0.8889 #Expl.:1102/1231 #Buy:537 #Sell:510 #Hold:184 #Stocks:94 PV:7,908 LC:1090 Loss:4.295441 ET:39.8782
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 013/100] Epsilon:0.8788 #Expl.:1087/1231 #Buy:323 #Sell:296 #Hold:612 #Stocks:109 PV:7,616 LC:1136 Loss:5.365725 ET:40.9310
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 014/100] Epsilon:0.8687 #Expl.:1067/1231 #Buy:195 #Sell:173 #Hold:863 #Stocks:103 PV:7,524 LC:1160 Loss:5.873310 ET:41.5761
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 015/100] Epsilon:0.8586 #Expl.:1074/1231 #Buy:379 #Sell:352 #Hold:500 #Stocks:112 PV:7,797 LC:1123 Loss:5.519497 ET:41.3715
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 016/100] Epsilon:0.8485 #Expl.:1055/1231 #Buy:289 #Sell:263 #Hold:679 #Stocks:110 PV:7,644 LC:1147 Loss:6.019115 ET:41.5174
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 017/100] Epsilon:0.8384 #Expl.:1055/1231 #Buy:574 #Sell:552 #Hold:105 #Stocks:95 PV:8,560 LC:1091 Loss:2.935460 ET:40.1678
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 018/100] Epsilon:0.8283 #Expl.:1019/1231 #Buy:439 #Sell:407 #Hold:385 #Stocks:115 PV:7,995 LC:1125 Loss:7.544245 ET:41.0080
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 019/100] Epsilon:0.8182 #Expl.:1035/1231 #Buy:155 #Sell:129 #Hold:947 #Stocks:110 PV:7,652 LC:1157 Loss:6.090079 ET:41.8345
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 020/100] Epsilon:0.8081 #Expl.:967/1231 #Buy:193 #Sell:163 #Hold:875 #Stocks:99 PV:7,592 LC:1158 Loss:5.569586 ET:41.8072
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 021/100] Epsilon:0.7980 #Expl.:981/1231 #Buy:434 #Sell:400 #Hold:397 #Stocks:102 PV:7,852 LC:1138 Loss:6.537277 ET:41.3696
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 022/100] Epsilon:0.7879 #Expl.:961/1231 #Buy:303 #Sell:274 #Hold:654 #Stocks:109 PV:7,620 LC:1148 Loss:5.998377 ET:41.5894
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 023/100] Epsilon:0.7778 #Expl.:944/1231 #Buy:267 #Sell:242 #Hold:722 #Stocks:110 PV:7,700 LC:1143 Loss:6.118417 ET:41.5532
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 024/100] Epsilon:0.7677 #Expl.:953/1231 #Buy:309 #Sell:282 #Hold:640 #Stocks:109 PV:7,932 LC:1103 Loss:7.166971 ET:40.1627
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 025/100] Epsilon:0.7576 #Expl.:937/1231 #Buy:244 #Sell:218 #Hold:769 #Stocks:110 PV:7,661 LC:1152 Loss:6.531111 ET:41.5394
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 026/100] Epsilon:0.7475 #Expl.:936/1231 #Buy:349 #Sell:315 #Hold:567 #Stocks:106 PV:7,756 LC:1130 Loss:6.496673 ET:40.9735
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 027/100] Epsilon:0.7374 #Expl.:892/1231 #Buy:460 #Sell:431 #Hold:340 #Stocks:106 PV:8,119 LC:1143 Loss:6.888080 ET:41.2906
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 028/100] Epsilon:0.7273 #Expl.:903/1231 #Buy:528 #Sell:515 #Hold:188 #Stocks:4 PV:7,601 LC:1093 Loss:6.235597 ET:40.1349
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 029/100] Epsilon:0.7172 #Expl.:875/1231 #Buy:414 #Sell:387 #Hold:430 #Stocks:104 PV:7,929 LC:1099 Loss:8.678560 ET:40.0483
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 030/100] Epsilon:0.7071 #Expl.:873/1231 #Buy:220 #Sell:192 #Hold:819 #Stocks:108 PV:7,544 LC:1157 Loss:6.607796 ET:42.0200
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 031/100] Epsilon:0.6970 #Expl.:859/1231 #Buy:151 #Sell:126 #Hold:954 #Stocks:111 PV:7,727 LC:1148 Loss:6.973122 ET:41.4813
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 032/100] Epsilon:0.6869 #Expl.:837/1231 #Buy:207 #Sell:183 #Hold:841 #Stocks:111 PV:7,763 LC:1139 Loss:7.727053 ET:41.0728
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 033/100] Epsilon:0.6768 #Expl.:853/1231 #Buy:358 #Sell:335 #Hold:538 #Stocks:102 PV:7,474 LC:1135 Loss:7.560703 ET:41.1433
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 034/100] Epsilon:0.6667 #Expl.:836/1231 #Buy:121 #Sell:98 #Hold:1012 #Stocks:108 PV:7,534 LC:1158 Loss:7.668423 ET:41.7959
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 035/100] Epsilon:0.6566 #Expl.:807/1231 #Buy:345 #Sell:313 #Hold:573 #Stocks:111 PV:7,772 LC:1128 Loss:7.719199 ET:40.8778
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 036/100] Epsilon:0.6465 #Expl.:772/1231 #Buy:188 #Sell:160 #Hold:883 #Stocks:104 PV:7,606 LC:1157 Loss:7.957939 ET:41.8718
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 037/100] Epsilon:0.6364 #Expl.:790/1231 #Buy:297 #Sell:267 #Hold:667 #Stocks:112 PV:7,844 LC:1127 Loss:6.808027 ET:40.9852
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 038/100] Epsilon:0.6263 #Expl.:802/1231 #Buy:212 #Sell:184 #Hold:835 #Stocks:114 PV:7,927 LC:1140 Loss:7.727105 ET:41.6426
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 039/100] Epsilon:0.6162 #Expl.:762/1231 #Buy:368 #Sell:338 #Hold:525 #Stocks:101 PV:7,758 LC:1112 Loss:9.888045 ET:40.6074
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 040/100] Epsilon:0.6061 #Expl.:766/1231 #Buy:416 #Sell:387 #Hold:428 #Stocks:111 PV:8,091 LC:1129 Loss:6.089217 ET:41.0042
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 041/100] Epsilon:0.5960 #Expl.:735/1231 #Buy:244 #Sell:215 #Hold:772 #Stocks:114 PV:7,936 LC:1132 Loss:9.542925 ET:41.1457
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 042/100] Epsilon:0.5859 #Expl.:735/1231 #Buy:299 #Sell:271 #Hold:661 #Stocks:119 PV:8,279 LC:1119 Loss:5.331217 ET:40.7113
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 043/100] Epsilon:0.5758 #Expl.:698/1231 #Buy:233 #Sell:205 #Hold:793 #Stocks:114 PV:7,969 LC:1136 Loss:9.652284 ET:41.1855
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 044/100] Epsilon:0.5657 #Expl.:710/1231 #Buy:178 #Sell:150 #Hold:903 #Stocks:112 PV:7,794 LC:1125 Loss:5.373579 ET:40.8853
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 045/100] Epsilon:0.5556 #Expl.:680/1231 #Buy:262 #Sell:240 #Hold:729 #Stocks:88 PV:7,829 LC:1131 Loss:10.003845 ET:40.7054
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 046/100] Epsilon:0.5455 #Expl.:665/1231 #Buy:408 #Sell:377 #Hold:446 #Stocks:101 PV:7,781 LC:1137 Loss:5.354633 ET:41.0444
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 047/100] Epsilon:0.5354 #Expl.:675/1231 #Buy:436 #Sell:406 #Hold:389 #Stocks:115 PV:8,722 LC:1148 Loss:7.992818 ET:41.3863
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 048/100] Epsilon:0.5253 #Expl.:685/1231 #Buy:448 #Sell:414 #Hold:369 #Stocks:115 PV:8,388 LC:1090 Loss:6.843542 ET:39.6438
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 049/100] Epsilon:0.5152 #Expl.:603/1231 #Buy:226 #Sell:193 #Hold:812 #Stocks:118 PV:8,262 LC:1114 Loss:7.251660 ET:40.4950
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 050/100] Epsilon:0.5051 #Expl.:619/1231 #Buy:405 #Sell:382 #Hold:444 #Stocks:98 PV:7,897 LC:1110 Loss:8.377185 ET:40.4737
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 051/100] Epsilon:0.4949 #Expl.:583/1231 #Buy:446 #Sell:416 #Hold:369 #Stocks:128 PV:9,273 LC:1096 Loss:4.284185 ET:40.1765
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 052/100] Epsilon:0.4848 #Expl.:579/1231 #Buy:202 #Sell:177 #Hold:852 #Stocks:95 PV:8,002 LC:1130 Loss:9.200740 ET:40.9156
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 053/100] Epsilon:0.4747 #Expl.:557/1231 #Buy:252 #Sell:225 #Hold:754 #Stocks:110 PV:8,015 LC:1129 Loss:6.584131 ET:41.2874
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 054/100] Epsilon:0.4646 #Expl.:572/1231 #Buy:334 #Sell:304 #Hold:593 #Stocks:98 PV:7,859 LC:1129 Loss:10.123537 ET:40.9491
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 055/100] Epsilon:0.4545 #Expl.:556/1231 #Buy:219 #Sell:196 #Hold:816 #Stocks:90 PV:8,045 LC:1135 Loss:6.414879 ET:41.1109
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 056/100] Epsilon:0.4444 #Expl.:570/1231 #Buy:457 #Sell:433 #Hold:341 #Stocks:101 PV:8,760 LC:1101 Loss:5.313450 ET:40.2933
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 057/100] Epsilon:0.4343 #Expl.:536/1231 #Buy:370 #Sell:341 #Hold:520 #Stocks:111 PV:8,095 LC:1119 Loss:10.476814 ET:40.7829
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 058/100] Epsilon:0.4242 #Expl.:511/1231 #Buy:316 #Sell:288 #Hold:627 #Stocks:102 PV:7,796 LC:1123 Loss:6.317204 ET:40.8459
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 059/100] Epsilon:0.4141 #Expl.:506/1231 #Buy:417 #Sell:397 #Hold:417 #Stocks:70 PV:8,392 LC:1102 Loss:5.399468 ET:40.4288
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 060/100] Epsilon:0.4040 #Expl.:469/1231 #Buy:430 #Sell:401 #Hold:400 #Stocks:108 PV:8,565 LC:1098 Loss:8.050116 ET:40.3198
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 061/100] Epsilon:0.3939 #Expl.:515/1231 #Buy:323 #Sell:299 #Hold:609 #Stocks:85 PV:7,350 LC:1157 Loss:7.804612 ET:42.1985
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 062/100] Epsilon:0.3838 #Expl.:476/1231 #Buy:436 #Sell:410 #Hold:385 #Stocks:78 PV:8,527 LC:1101 Loss:4.793073 ET:40.2818
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 063/100] Epsilon:0.3737 #Expl.:459/1231 #Buy:289 #Sell:262 #Hold:680 #Stocks:103 PV:8,222 LC:1097 Loss:7.129449 ET:40.3433
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 064/100] Epsilon:0.3636 #Expl.:451/1231 #Buy:352 #Sell:325 #Hold:554 #Stocks:123 PV:8,607 LC:1132 Loss:8.247228 ET:41.0067
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 065/100] Epsilon:0.3535 #Expl.:455/1231 #Buy:443 #Sell:415 #Hold:373 #Stocks:125 PV:9,411 LC:1095 Loss:4.644878 ET:40.0826
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 066/100] Epsilon:0.3434 #Expl.:425/1231 #Buy:282 #Sell:258 #Hold:691 #Stocks:106 PV:8,433 LC:1126 Loss:8.336994 ET:40.7857
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 067/100] Epsilon:0.3333 #Expl.:397/1231 #Buy:331 #Sell:300 #Hold:600 #Stocks:109 PV:7,970 LC:1100 Loss:5.666187 ET:40.1667
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 068/100] Epsilon:0.3232 #Expl.:395/1231 #Buy:358 #Sell:331 #Hold:542 #Stocks:100 PV:8,019 LC:1126 Loss:6.872364 ET:41.2805
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 069/100] Epsilon:0.3131 #Expl.:387/1231 #Buy:330 #Sell:302 #Hold:599 #Stocks:109 PV:7,954 LC:1101 Loss:5.953964 ET:40.2532
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 070/100] Epsilon:0.3030 #Expl.:374/1231 #Buy:357 #Sell:324 #Hold:550 #Stocks:123 PV:8,910 LC:1118 Loss:5.224131 ET:40.6679
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 071/100] Epsilon:0.2929 #Expl.:337/1231 #Buy:293 #Sell:263 #Hold:675 #Stocks:118 PV:8,936 LC:1112 Loss:6.202695 ET:40.5783
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 072/100] Epsilon:0.2828 #Expl.:357/1231 #Buy:389 #Sell:358 #Hold:484 #Stocks:121 PV:9,490 LC:1102 Loss:6.410479 ET:40.3379
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 073/100] Epsilon:0.2727 #Expl.:335/1231 #Buy:350 #Sell:324 #Hold:557 #Stocks:101 PV:8,451 LC:1101 Loss:5.596555 ET:40.2607
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 074/100] Epsilon:0.2626 #Expl.:303/1231 #Buy:303 #Sell:273 #Hold:655 #Stocks:118 PV:8,600 LC:1103 Loss:6.204352 ET:40.2756
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 075/100] Epsilon:0.2525 #Expl.:296/1231 #Buy:331 #Sell:305 #Hold:595 #Stocks:112 PV:8,887 LC:1108 Loss:5.100999 ET:40.5251
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 076/100] Epsilon:0.2424 #Expl.:301/1231 #Buy:354 #Sell:338 #Hold:539 #Stocks:67 PV:8,512 LC:1100 Loss:6.056040 ET:40.6173
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 077/100] Epsilon:0.2323 #Expl.:297/1231 #Buy:380 #Sell:354 #Hold:497 #Stocks:93 PV:9,225 LC:1099 Loss:4.544092 ET:40.2183
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 078/100] Epsilon:0.2222 #Expl.:294/1231 #Buy:273 #Sell:244 #Hold:714 #Stocks:130 PV:9,037 LC:1100 Loss:5.597777 ET:40.1721
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 079/100] Epsilon:0.2121 #Expl.:271/1231 #Buy:300 #Sell:274 #Hold:657 #Stocks:108 PV:8,939 LC:1099 Loss:5.337421 ET:40.1680
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 080/100] Epsilon:0.2020 #Expl.:245/1231 #Buy:331 #Sell:306 #Hold:594 #Stocks:93 PV:8,883 LC:1098 Loss:4.769366 ET:40.3611
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 081/100] Epsilon:0.1919 #Expl.:231/1231 #Buy:278 #Sell:253 #Hold:700 #Stocks:101 PV:8,478 LC:1099 Loss:6.343507 ET:40.2646
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 082/100] Epsilon:0.1818 #Expl.:201/1231 #Buy:318 #Sell:293 #Hold:620 #Stocks:105 PV:8,755 LC:1095 Loss:6.161091 ET:40.0278
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 083/100] Epsilon:0.1717 #Expl.:219/1231 #Buy:340 #Sell:312 #Hold:579 #Stocks:104 PV:8,673 LC:1097 Loss:4.766196 ET:40.1204
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 084/100] Epsilon:0.1616 #Expl.:190/1231 #Buy:341 #Sell:310 #Hold:580 #Stocks:117 PV:8,886 LC:1114 Loss:4.661369 ET:40.6402
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 085/100] Epsilon:0.1515 #Expl.:173/1231 #Buy:317 #Sell:293 #Hold:621 #Stocks:98 PV:8,952 LC:1105 Loss:5.091950 ET:40.3587
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 086/100] Epsilon:0.1414 #Expl.:161/1231 #Buy:319 #Sell:291 #Hold:621 #Stocks:121 PV:9,155 LC:1113 Loss:4.455054 ET:40.6183
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 087/100] Epsilon:0.1313 #Expl.:146/1231 #Buy:289 #Sell:263 #Hold:679 #Stocks:110 PV:9,038 LC:1098 Loss:5.672066 ET:40.2391
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 088/100] Epsilon:0.1212 #Expl.:170/1231 #Buy:301 #Sell:277 #Hold:653 #Stocks:102 PV:8,872 LC:1098 Loss:4.496901 ET:40.1855
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 089/100] Epsilon:0.1111 #Expl.:151/1231 #Buy:319 #Sell:290 #Hold:622 #Stocks:128 PV:9,602 LC:1098 Loss:4.137214 ET:40.3134
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 090/100] Epsilon:0.1010 #Expl.:146/1231 #Buy:295 #Sell:268 #Hold:668 #Stocks:114 PV:9,374 LC:1098 Loss:6.045637 ET:40.2783
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 091/100] Epsilon:0.0909 #Expl.:125/1231 #Buy:301 #Sell:274 #Hold:656 #Stocks:109 PV:9,015 LC:1096 Loss:4.836755 ET:40.2815
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 092/100] Epsilon:0.0808 #Expl.:99/1231 #Buy:304 #Sell:279 #Hold:648 #Stocks:98 PV:8,941 LC:1101 Loss:4.722085 ET:40.2479
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 093/100] Epsilon:0.0707 #Expl.:96/1231 #Buy:298 #Sell:272 #Hold:661 #Stocks:97 PV:8,830 LC:1102 Loss:4.835505 ET:40.2740
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 094/100] Epsilon:0.0606 #Expl.:79/1231 #Buy:289 #Sell:260 #Hold:682 #Stocks:110 PV:9,069 LC:1097 Loss:4.600848 ET:40.2770
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 095/100] Epsilon:0.0505 #Expl.:65/1231 #Buy:285 #Sell:259 #Hold:687 #Stocks:111 PV:9,170 LC:1098 Loss:5.138092 ET:40.3565
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 096/100] Epsilon:0.0404 #Expl.:53/1231 #Buy:287 #Sell:262 #Hold:682 #Stocks:110 PV:9,046 LC:1098 Loss:4.819805 ET:40.2103
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 097/100] Epsilon:0.0303 #Expl.:39/1231 #Buy:271 #Sell:247 #Hold:713 #Stocks:112 PV:9,183 LC:1108 Loss:4.676351 ET:40.6571
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 098/100] Epsilon:0.0202 #Expl.:23/1231 #Buy:277 #Sell:252 #Hold:702 #Stocks:112 PV:9,195 LC:1102 Loss:6.201680 ET:40.3251
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 099/100] Epsilon:0.0101 #Expl.:16/1231 #Buy:287 #Sell:261 #Hold:683 #Stocks:116 PV:9,522 LC:1102 Loss:5.027725 ET:40.3791
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM][Epoch 100/100] Epsilon:0.0000 #Expl.:1/1231 #Buy:291 #Sell:264 #Hold:676 #Stocks:114 PV:9,358 LC:1102 Loss:4.323008 ET:40.4524
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[XOM] Elapsed Time:4306.9655 Max PV:9,602 #Win:0
