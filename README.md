@@ -31,5 +31,5 @@ RainBow는 반대로 --policy_network_path만 사용 --value_network_path만 작
 DDPG  
 ex) python main.py --stock_code XOM --rl_method ddpg --num_steps 5 --reuse_models --start_date 20200501 --end_date 20210501 --policy_network_path XOM_ddpg.h5 --output_name Test_XOM_ddpg  
 
->Rainbow  
->ex) python main.py —stock_code XEC —rl_method rainbow —net dndlstm —num_steps 5 —output_name test_XEC_T2 —num_epoches 1 —start_epsilon 0 —start_date 20200501 —end_date 20210501 —reuse_models —value_network_name rainbow_dndlstm_value_c_XEC —backend plaidml  
+Rainbow  
+ex) python main.py —stock_code XEC —rl_method rainbow —net dndlstm —num_steps 5 —output_name test_XEC_T2 —num_epoches 1 —start_epsilon 0 —start_date 20200501 —end_date 20210501 —reuse_models —value_network_name rainbow_dndlstm_value_c_XEC —backend plaidml  
